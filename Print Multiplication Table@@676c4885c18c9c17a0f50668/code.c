@@ -6,5 +6,6 @@ int main() {
     for (int i = 1;i<a+1;i++) {
         int j = a*i;
         printf("%d x %d = %d",a,i,j);
+        printf("\n");
     }
 }
