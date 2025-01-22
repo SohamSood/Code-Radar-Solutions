@@ -3,9 +3,10 @@
 int main() {
     float a,b;
     char c;
+    int o,j;
     scanf("%d %d %c",&a,&b,&c);
-    int o=(int)a;
-    int j =(int)b;
+    o=(int)a;
+    j =(int)b;
     if( c == '+') {
         printf("%d",o+j);
     } else if (c == "-") {
