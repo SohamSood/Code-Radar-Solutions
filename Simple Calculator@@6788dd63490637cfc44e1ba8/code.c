@@ -5,7 +5,7 @@ int main() {
     char c;
     int o,j;
     scanf("%d %d %c",&a,&b,&c);
-    if( c == '+') {
+    if( c == "+") {
         float u = a+b;
         printf("%f",u);
     } else if (c == "-") {
