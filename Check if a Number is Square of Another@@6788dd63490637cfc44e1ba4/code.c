@@ -3,7 +3,7 @@
 
 int main() {
     int m,n;
-    scanf("%d %d",&m,&n);
+    scanf("%d %d",&n,&m);
     if ( (m*m) == n) {
         printf("Yes");
     } else {
