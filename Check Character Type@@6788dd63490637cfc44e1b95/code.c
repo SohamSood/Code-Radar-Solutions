@@ -7,10 +7,18 @@ int main() {
     if (isdigit(a)) {
         printf("Digit");
     } else if(isalpha(a)) {
+        int k = 0;
         for (int i =0;i<10;i++) {
             if (a == vowels[i]) {
                 printf("Vowel");
+                k++;
             }
         }
+        if(k == 0) {
+            printf("Consonant");
+        }
+         
+    } else {
+        printf("Special Character")
     }
 }
