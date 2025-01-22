@@ -4,14 +4,12 @@ int main() {
     float a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
+    int(o)=(int)a;
+    int(j)=(int)b;
     if( c == '+') {
-        float d = a+b;
-        int(e)=(int)d;
-        printf("%d",d);
+        printf("%d",o+j);
     } else if (c == "-") {
-        float d = a-b;
-        int(e)=(int)d;
-        printf("%d",d);
+         printf("%d",o-j);
     } else if(c == '*') {
         float e = a*b;
         int(d)=(int)e;
