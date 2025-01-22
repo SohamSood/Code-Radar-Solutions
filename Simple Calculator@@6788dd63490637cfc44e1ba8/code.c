@@ -5,11 +5,11 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if( c == '+') {
-        d = a+b;
+        float d = a+b;
         int(e)=(int)d;
         printf("%d",d);
     } else if (c == "-") {
-        d = a-b;
+        float d = a-b;
         int(e)=(int)d;
         printf("%d",d);
     } else if(c == '*') {
