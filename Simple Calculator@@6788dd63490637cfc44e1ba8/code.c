@@ -13,7 +13,7 @@ int main() {
         float e = a*b;
         int(d)=(int)e;
         printf("%d",d);
-    } else {
+    } else if(c == '/'){
         float e = a/b; 
         int d = (int)e;   
         printf("%d",d);
