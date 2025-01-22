@@ -8,13 +8,14 @@ int prime(int a) {
             if (a%i == 0){
                 c++;
             }
+        }
         if (c == 0){
             printf("Prime");
         } else {
             printf("Not Prime");
         }
 
-        }
+        
 
     }
 }
