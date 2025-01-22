@@ -3,11 +3,9 @@
 int main() {
     float a,b;
     char c;
-    int o,j;
     scanf("%d %d %c",&a,&b,&c);
     if( c == '+') {
-        int u =(int)a+b;
-        printf("%d",u);
+        printf("%d",a+b);
     } else if (c == '-') {
         int u =(int)a-b;
         printf("%d",u);
