@@ -5,12 +5,12 @@ int main() {
     char c;
     int o,j;
     scanf("%d %d %c",&a,&b,&c);
-    o=(int)a;
-    j =(int)b;
     if( c == '+') {
-        printf("%d",o+j);
+        int u = a+b;
+        printf("%d",u);
     } else if (c == "-") {
-         printf("%d",o-j);
+        int u = a-b;
+         printf("%d",u);
     } else if(c == '*') {
         float e = a*b;
         int(d)=(int)e;
