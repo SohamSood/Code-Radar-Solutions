@@ -13,7 +13,7 @@ int main() {
     scanf("%s",&a);
     int j = 0;
     for (int i = 0;i<sizeof(a);i++) {
-        check(a[i];j);
+        check(a[i],j);
     }
     printf("%d",j);
 }
