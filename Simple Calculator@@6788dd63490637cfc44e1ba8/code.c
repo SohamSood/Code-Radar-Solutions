@@ -2,6 +2,7 @@
 
 int main() {
     float a,b;
+    int o,j;
     char c;
     scanf("%d %d %c",&a,&b,&c);
     int(o)=(int)a;
