@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int d;
-    scanf("%d",&d);
+    int a;
+    scanf("%d",&a);
     if (a<0) {
         printf("Negative");
     } else if ( a == 0) {
