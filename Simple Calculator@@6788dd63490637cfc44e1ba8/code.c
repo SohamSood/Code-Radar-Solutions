@@ -4,8 +4,8 @@ int main() {
     float a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    int(o)=(int)a;
-    int(j)=(int)b;
+    int o=(int)a;
+    int j =(int)b;
     if( c == '+') {
         printf("%d",o+j);
     } else if (c == "-") {
