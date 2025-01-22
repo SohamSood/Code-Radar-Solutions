@@ -1,6 +1,6 @@
 #include <stdio.h>
 int check(char a,int j){
-    char vowels[10]=['a','e','i','o','u','A','I','O','U','E'];
+    char vowels[10]={'a','e','i','o','u','A','I','O','U','E'};
     for (int k = 0;k<10;k++) {
         if(a == vowels[a]) {
             j++;
