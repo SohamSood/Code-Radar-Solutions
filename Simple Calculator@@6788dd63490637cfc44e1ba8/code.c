@@ -9,13 +9,12 @@ int main() {
     } else if (c == "-") {
         printf("%d",a-b);
     } else if(c == '*') {
-        int(c)=(int)a;
-        int(d)=(int)b;
-
-        printf("%d",c*d);
+        float c = a*b;
+        int(d)=(int)c;
+        printf("%d",d);
     } else {
-        int(c)=(int)a;
-        int(d)=(int)b;
-        printf("%d",c/d);
+        float c = a/b; 
+        int d = (int)c;   
+        printf("%d",d);
     }
 }
