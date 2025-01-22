@@ -16,6 +16,6 @@ int main() {
     } else {
         int(c)=(int)a;
         int(d)=(int)b;
-        printf("%f",a/b);
+        printf("%d",c/d);
     }
 }
