@@ -16,6 +16,6 @@ int main() {
     } else {
         float e = a/b; 
         int d = (int)e;   
-        printf("%d",a);
+        printf("%d",d);
     }
 }
