@@ -10,7 +10,7 @@ int main() {
         printf("%f",u);
     } else if (c == '-') {
         int u = a-b;
-         printf("%d",u);
+         printf("%d",u);3
     } else if(c == '*') {
         float e = a*b;
         int(d)=(int)e;
