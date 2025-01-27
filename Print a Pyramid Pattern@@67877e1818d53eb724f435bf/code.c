@@ -10,7 +10,6 @@ int main() {
         for(int k = j;k<a;k++) {
             printf("*");
         }
-
-    printf("\n");
+        printf("\n");
     }
 }
