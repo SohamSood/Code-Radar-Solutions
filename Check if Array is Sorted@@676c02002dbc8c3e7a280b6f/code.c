@@ -10,4 +10,10 @@ int main() {
             e = e+1;
         }
     }
+    if(e == (sizeof(myarr))) {
+        printf("Sorted");
+
+    } else {
+        printf("Not Sorted");
+    }
 }
