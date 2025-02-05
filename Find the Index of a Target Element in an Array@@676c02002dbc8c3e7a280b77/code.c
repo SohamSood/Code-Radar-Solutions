@@ -22,7 +22,7 @@ int main() {
     }
 
     }
-    if ( e != 0) {
+    if ( e == 0) {
         int l = -1;
         printf("%d",l);
     }
