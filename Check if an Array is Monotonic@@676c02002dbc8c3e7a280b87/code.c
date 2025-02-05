@@ -12,14 +12,14 @@ int main() {
     int g = 0;
     int h = 0;
     for(int i = 0;i<a;i++) {
-        if(myarr[i]>=myarr[j]) {
+        if(myarr[i]>=myarr[i+1]) {
             e++;
         } else {
             f++;
         }
     }
     for (int j = 0;j<a;j++) {
-        if(myarr[j]<=myarr[j]) {
+        if(myarr[j]<=myarr[j+1]) {
             g++;
         } else {
             h++;
