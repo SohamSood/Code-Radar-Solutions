@@ -11,6 +11,7 @@ int main() {
         for(int j = 0;j<a;j++) {
             if(myarr[i] == myarr[j]) {
                 printf("%d",myarr[i]);
+                break;
             }
         }
     }
