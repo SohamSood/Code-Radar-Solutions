@@ -18,7 +18,7 @@ int main() {
             f++;
         }
     }
-    for (int j = 0;j<a;j++) {
+    for (int j = 0;j<a-1;j++) {
         if(myarr[j]<=myarr[j+1]) {
             g++;
         } else {
