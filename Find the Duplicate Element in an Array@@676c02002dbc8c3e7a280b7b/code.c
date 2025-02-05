@@ -23,8 +23,5 @@ int main() {
                 break;
             }
             }
-        if(e !=0) {
-            break;
-        }
     }    
 }
