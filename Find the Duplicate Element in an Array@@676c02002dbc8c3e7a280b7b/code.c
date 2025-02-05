@@ -13,10 +13,12 @@ int main() {
         for(int j = 1;j<a;j++) {
             if(k != j) {
                 if(myarr[k] == myarr[j]) {
-                    f = f+myarr[k];
-                    e++;
-                    printf("%d",f);
-                    break;
+                    if(f == 0) {
+                        f = f+myarr[k];
+                        e++;
+                        printf("%d",f);
+                        break;
+                    }
                 }
             }
         }
