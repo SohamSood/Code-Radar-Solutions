@@ -9,14 +9,13 @@ int main() {
     }
     int cout = 0;
     for(int i = 0;i<a;i++) {
-        int b=myarr[i];
         int e= 0;
-        for(int j = 2;j<b;j++) {
-            if(b%j == 0) {
+        for(int j = 2;j<myarr[i];j++) {
+            if(myarr[i]%j == 0) {
                 e = e+1;
             }
         }
-        if(b == 0) {
+        if(e == 0) {
             cout++;
         }
     }
