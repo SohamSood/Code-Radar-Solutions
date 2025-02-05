@@ -7,7 +7,7 @@ int main() {
     scanf("%d",&a);
     int *myarr = malloc(a * (sizeof(int)));
     for(int i = 0;i<a;i++) {
-        if(myarr[i]<=myarr[i+1]) {
+        if(myarr[i]>=myarr[i+1]) {
             e = e+1;
         } else {
             f = f+1;
