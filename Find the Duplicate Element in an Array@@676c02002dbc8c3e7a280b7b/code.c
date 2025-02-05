@@ -7,15 +7,29 @@ int main() {
     for (int i =0;i<a;i++) {
         scanf("%d",&myarr[i]);
     }
+    int e = 0;
     for(int k = 0;k<a;k++) {
         for(int j = 1;j<a;j++) {
             if(k != j) {
                 if(myarr[k] == myarr[j]) {
-                    printf("%d",myarr[k]);
+                    f = f+myarr[k];
+                    e++;
                     break;
                 }
+                if(e != 0) {
+                    break;
+                }
+            if(e != 0) {
+                break;
             }
+            }
+        if(e !=0) {
+            break;
         }
+        }
+    if(e != 0) {
+        break;
+    }
     }
     
 }
