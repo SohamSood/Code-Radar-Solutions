@@ -25,7 +25,6 @@ int main() {
             h++;
         }
     }
-    printf("%d %d",g,h);
     if(e!=0 && f == 0){
         printf("YES");
     } else if( g != 0 && h == 0) {
