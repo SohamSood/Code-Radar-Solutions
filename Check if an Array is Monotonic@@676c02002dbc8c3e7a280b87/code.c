@@ -19,7 +19,7 @@ int main() {
         }
     }
     for (int j = 0;j<a;j++) {
-        if(myarr[i]<=myarr[j]) {
+        if(myarr[j]<=myarr[j]) {
             g++;
         } else {
             h++;
