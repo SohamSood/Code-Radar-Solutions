@@ -17,7 +17,7 @@ int main() {
             e = e+1;
             break;
         }
-    if(e == 0) {
+    if(e != 0) {
         break;
     }
 
