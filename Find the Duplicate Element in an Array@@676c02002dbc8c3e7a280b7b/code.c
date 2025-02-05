@@ -26,10 +26,5 @@ int main() {
         if(e !=0) {
             break;
         }
-        }
-    if(e != 0) {
-        break;
-    }
-    }
-    
+    }    
 }
