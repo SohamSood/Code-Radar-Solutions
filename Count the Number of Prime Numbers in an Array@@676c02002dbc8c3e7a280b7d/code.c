@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int mian() {
+int main() {
     int a;
     scanf("%d",&a);
     int *myarr = malloc(a*sizeof(int));
