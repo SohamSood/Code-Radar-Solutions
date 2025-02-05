@@ -7,6 +7,6 @@ int main() {
         for(int j = i;j<a;j++) {
             printf(" ");
         }
-        printf("*");
+        printf("*\n");
     }
 }
