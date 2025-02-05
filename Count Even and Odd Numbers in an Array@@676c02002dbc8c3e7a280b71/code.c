@@ -7,7 +7,13 @@ int main() {
     int *myarr = malloc(a * (sizeof(int)));
     for (int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
-
     }
-    printf("%d",myarr[0]);
+    int max = 0;
+    for(int j=0;j<a;j++) {
+        for(int k = 0;k<a;k++) {
+            if(myarr[j] > myarr[k]);
+                int max = myarr[j];
+        }
+    } 
+    printf("%d",max);   
 }
