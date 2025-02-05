@@ -9,8 +9,8 @@ int main() {
     }
     for(int k = 0;k<a;k++) {
         for(int j = 0;j<a;j++) {
-            if(myarr[k] == myarr[j+1]) {
-                printf("%d",myarr[k]);
+            if(myarr[k] == myarr[j]) {
+                printf("%d %d",myarr[k],myarr[j]);
                 break;
             }
         }
