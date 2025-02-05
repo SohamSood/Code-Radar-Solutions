@@ -9,7 +9,7 @@ int mian() {
     }
     int cout = 0;
     for(int i = 0;i<a;i++) {
-        b=myarr[i];
+        int b=myarr[i];
         int e= 0;
         for(int j = 2;j<b;j++) {
             if(b%j == 0) {
