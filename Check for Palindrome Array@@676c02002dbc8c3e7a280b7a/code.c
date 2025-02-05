@@ -16,7 +16,7 @@ int main() {
             e++;
         }
     }
-    if(a == 0) {
+    if(e == 0) {
         printf("YES");
     } else {
         printf("NO");
