@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&myarr[j]);
     }
     int max = myarr[0];
-    int min;
+    int min = myarr[0];
     for(int i=0;i<a;i++) {
         for(int j = 0;j<a;j++) {
             if(myarr[i]>myarr[j]) {
@@ -17,7 +17,9 @@ int main() {
                 }
             }
             if(myarr[i]<myarr[j]) {
-                min = myarr[i];
+                if(myarr[i]<min) {
+                    min = myarr[i];
+                }
             }
         }
     }
