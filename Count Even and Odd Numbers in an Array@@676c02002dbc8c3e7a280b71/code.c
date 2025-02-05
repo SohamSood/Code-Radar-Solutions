@@ -8,12 +8,14 @@ int main() {
     for (int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    int max = 0;
-    for(int j=0;j<a;j++) {
-        for(int k = 0;k<a;k++) {
-            if(myarr[j] > myarr[k]);
-                int max = myarr[j];
+    int b = 0;
+    int c = 0;
+    for(int j=0;j<a;j++){
+        if((myarr[j]%2) == 0) {
+            b++;
+        } else {
+            c++;
         }
-    } 
-    printf("%d",max);   
+    }
+    printf("%d %d",b,c);
 }
