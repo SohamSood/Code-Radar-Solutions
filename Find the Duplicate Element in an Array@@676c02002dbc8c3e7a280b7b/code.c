@@ -15,10 +15,10 @@ int main() {
                 if(myarr[k] == myarr[j]) {
                     f = f+myarr[k];
                     e++;
-                    break;
+                    printf("%d"'f);
+                        break;
                 }
             }
         }
-    }  
-    printf("f");  
+    }    
 }
