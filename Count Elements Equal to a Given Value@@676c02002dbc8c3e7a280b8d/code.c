@@ -8,17 +8,11 @@ int main() {
     for (int u= 0;u <a;u++ ){
         scanf("%d",&myarr[u]);
     }
-    if(a>b) {
-        int c = a;
-    } else {
-        int c = b;
-    }
-
-    for (int i = 0;i<c;i++) {
-        if(a!=b) {
-            if((a == myarr[i]) || (b == myarr[i])){
-                e = e+1;
-            }      
+    int s = 0;
+    for(int i = 0;i<a;i++) {
+        if(myarr[i] == b) {
+                s = s+1;
         }
     }
+    printf("%d",s);
 }
