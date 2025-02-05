@@ -16,9 +16,7 @@ int main() {
                     e++;
                     break;
                 }
-                if(e != 0) {
-                    break;
-                }
             }
+        }
     }    
 }
