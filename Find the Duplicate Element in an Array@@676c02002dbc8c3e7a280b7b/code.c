@@ -16,7 +16,7 @@ int main() {
                     f = f+myarr[k];
                     e++;
                     printf("%d"'f);
-                        break;
+                    break;
                 }
             }
         }
