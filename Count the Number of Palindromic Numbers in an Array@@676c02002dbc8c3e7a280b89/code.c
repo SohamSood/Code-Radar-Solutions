@@ -17,10 +17,10 @@ int main() {
         }
         int *myarr2 = malloc(c*(sizeof(int)));
         int r= 0;
-        do(r++) {
-            o = myarr[p]%10;
-            myarr[p]=myarr[p]/10;
-        } while(myarr[p]>0);
-        
+        // do(r++) {
+        //     o = myarr[p]%10;
+        //     myarr[p]=myarr[p]/10;
+        // } while(myarr[p]>0);
+
     }
 }
