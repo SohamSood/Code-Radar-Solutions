@@ -10,7 +10,7 @@ int main() {
     }
     int count = 0;
     for(int i = 0;i<a;i++) {
-        if(myarr[i]>=a) {
+        if(myarr[i]>a) {
             count++;
         }
     }
