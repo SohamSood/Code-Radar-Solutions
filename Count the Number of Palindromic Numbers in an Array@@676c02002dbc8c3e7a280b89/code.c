@@ -27,7 +27,7 @@ int main() {
     for (int f = 0;f<a;f++) {
         scanf("%d",&myarr[f]);
     }
-    int ab;
+    int ab = 0;
     for(int p = 0;p<a;p++){
         int c = 0;
         int d = myarr[p];
