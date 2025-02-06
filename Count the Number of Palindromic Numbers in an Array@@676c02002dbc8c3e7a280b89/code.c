@@ -7,7 +7,7 @@ int main() {
     for(int p = 0;p<a;p++){
         int c = 0;
         int e;
-        int d = myarr[p]
+        int d = myarr[p];
         while(d>0) {
             e = d%10;
             d = d/10;
