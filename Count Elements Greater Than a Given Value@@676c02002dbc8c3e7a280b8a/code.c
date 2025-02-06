@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    int a;
+    int a,b;
     scanf("%d %d",&a,&b);
     int *myarr = malloc(a*(sizeof(int)));
     for(int p = 0;p<a;p++) {
