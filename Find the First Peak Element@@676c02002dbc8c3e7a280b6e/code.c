@@ -18,6 +18,11 @@ int main() {
             if(myarr[i] > myarr[i-1]) {
                 printf("%d",myarr[i]);
             }
+        } else {
+            if((myarr[i]>myarr[i+1])&&(myarr[i]>myarr[i-1])) {
+                printf("%d",myarr[i]);
+                break;
+            }
         }
     }
 }
