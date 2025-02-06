@@ -24,6 +24,9 @@ int main() {
     int a;
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
+    for (int f = 0;f<a;f++) {
+        scanf("%d",&myarr[f]);
+    }
     for(int p = 0;p<a;p++){
         int c = 0;
         int e;
