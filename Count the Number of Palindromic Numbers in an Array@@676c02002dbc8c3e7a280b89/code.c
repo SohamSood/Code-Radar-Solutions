@@ -27,11 +27,10 @@ int main() {
     for (int f = 0;f<a;f++) {
         scanf("%d",&myarr[f]);
     }
-    int e;
+    int ab;
     for(int p = 0;p<a;p++){
         int c = 0;
         int d = myarr[p];
-        int ab = 0;
         while(d>0) {
             d = d/10;
             c++;  
