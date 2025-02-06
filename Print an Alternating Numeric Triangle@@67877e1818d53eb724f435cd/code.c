@@ -8,7 +8,7 @@ int mai(int a) {
         printf("1");
     } else { 
         printf("1 0 1");
-        for(int j = 3;j<a-3;j++) {
+        for(int j = 3;j<a;j++) {
             printf(" 1 0 ");
         }
     }
