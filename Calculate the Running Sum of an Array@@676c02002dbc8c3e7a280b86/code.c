@@ -8,4 +8,8 @@ int main(){
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
+    for(int i = 0;i<a;i++) {
+        e = e+(myarr[i]);
+        printf("%d",e);
+    }
 }
