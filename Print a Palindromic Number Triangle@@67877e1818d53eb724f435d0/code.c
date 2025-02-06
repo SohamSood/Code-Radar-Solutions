@@ -13,6 +13,6 @@ int main() {
         for(int y = 0;y<=i;y++) {
             printf("%d",y);
         }
-        printf("\n")
+        printf("\n");
     }
 }
