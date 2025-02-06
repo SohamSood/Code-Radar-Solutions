@@ -34,6 +34,6 @@ int main() {
             d = d/10;
             c++;  
         }
-        z = check(n,c);
+        int z = check(n,c);
     }
 }
