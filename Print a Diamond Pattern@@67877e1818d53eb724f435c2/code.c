@@ -1,6 +1,6 @@
 #include <stdio.h>
 int fxn(int a) {
-    for(int i = 1;i<a;i++) {
+    for(int i = a;i<a-i;i++) {
         printf(" ");
     }
     for(int j = 0;j<a;j++) {
