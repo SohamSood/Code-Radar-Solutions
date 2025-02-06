@@ -8,7 +8,7 @@ int check(int o,int u) {
         o = o/10;
     }
     for(int k=0;k<u;k++) {
-        if(myarr2[k]==myarr[u-k-1]) {
+        if(myarr2[k]==myarr2[u-k-1]) {
             m++;
         }
     }
@@ -27,17 +27,18 @@ int main() {
     for (int f = 0;f<a;f++) {
         scanf("%d",&myarr[f]);
     }
-    int e = 0;
+    int e;
     for(int p = 0;p<a;p++){
         int c = 0;
         int d = myarr[p];
+        int ab = 0;
         while(d>0) {
-            e = d%10;
+            int e = d%10;
             d = d/10;
             c++;  
         }
         int z = check(myarr[p],c);
-        e = e+z;
+        ab = ab+z;
     }
-    printf("%d",z);
+    printf("%d",ab);
 }
