@@ -13,16 +13,22 @@ int main() {
         if((i == 0)) { 
             if(myarr[i] > myarr[i+1]) {
                 printf("%d",&myarr[0]);
+                e++;
             }
         } else if (i == a-1) {
             if(myarr[i] > myarr[i-1]) {
                 printf("%d",myarr[i]);
+                e++;
             }
-        } else {
+        } else  {
             if((myarr[i]>myarr[i+1])&&(myarr[i]>myarr[i-1])) {
                 printf("%d",myarr[i]);
+                e++;
                 break;
             }
+        }
+        if(e == 0) {
+            printf("-1");
         }
     }
 }
