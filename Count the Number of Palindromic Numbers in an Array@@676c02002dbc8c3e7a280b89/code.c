@@ -29,14 +29,12 @@ int main() {
     }
     for(int p = 0;p<a;p++){
         int c = 0;
-        int e;
         int d = myarr[p];
-        int n = myarr[p];
         while(d>0) {
             e = d%10;
             d = d/10;
             c++;  
         }
-        int z = check(n,c);
+        int z = check(myarr[p],c);
     }
 }
