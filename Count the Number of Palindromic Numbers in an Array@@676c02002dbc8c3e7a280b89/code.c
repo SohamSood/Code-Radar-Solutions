@@ -6,6 +6,7 @@ int check(int o,int u) {
     //     myarr[v] = o%10;
     //     o = o/10;
     // }
+    return 0;
 }
 int main() {
     int a;
