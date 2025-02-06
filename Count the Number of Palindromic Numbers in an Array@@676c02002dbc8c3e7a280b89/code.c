@@ -2,10 +2,10 @@
 #include <stdlib.h>
 int check(int o,int u) {
     int *myarr2 = malloc(u*(sizeof(int)));
-    for(int v = 0;v<u;v++) {
-        myarr[v] = o%10;
-        o = o/10;
-    }
+    // for(int v = 0;v<u;v++) {
+    //     myarr[v] = o%10;
+    //     o = o/10;
+    // }
 }
 int main() {
     int a;
