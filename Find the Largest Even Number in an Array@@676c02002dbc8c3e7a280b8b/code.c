@@ -8,7 +8,7 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    int max = 0;
+    int max = -8;
     for(int i = 0;i<a;i++) {
         if ((myarr[i])%2 == 0) {
             if(myarr[i]>max) {
