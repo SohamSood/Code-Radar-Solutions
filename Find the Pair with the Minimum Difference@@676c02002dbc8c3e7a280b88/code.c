@@ -23,6 +23,10 @@ int main() {
             }
         }
     }
+    if (a==1) {
+        printf("-1");
+    } else {
     printf("%d %d",index1,index2);
 
+    }
 }
