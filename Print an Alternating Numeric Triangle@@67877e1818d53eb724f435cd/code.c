@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(int a) {
+int mai(int a) {
     if(a%2 == 0) {
         for(int i = 0;i<a;i++) {
             printf("0 1 ");
@@ -16,7 +16,7 @@ int main() {
     int a;
     scanf("%d",&a);
     for(int i = 0;i<a;i++) {
-        main(i);
+        mai(i);
         printf("\n");
     }
 }
