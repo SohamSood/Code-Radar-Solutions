@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(a) {
+int main(int a) {
     if(a%2 == 0) {
         for(int i = 0;i<a;i++) {
             printf("0 1 ");
