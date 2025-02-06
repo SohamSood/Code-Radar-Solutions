@@ -3,6 +3,9 @@
 int sum(int a) {
     int e = 0;
     int b;
+    if(a<0) {
+        a = a+(2*a);
+    }
     while (a>0) {
         b = a%10;
         e = e+b;
