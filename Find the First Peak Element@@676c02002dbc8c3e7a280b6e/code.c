@@ -11,8 +11,8 @@ int main() {
     }
     for(int i = 0;i<a;i++) {
         if((i == 0)) { 
-            if(myarr[0] > myarr[1]) {
-                printf("%d",&myarr[o]);
+            if(myarr[i] > myarr[i+1]) {
+                printf("%d",&myarr[0]);
             }
         }
     }
