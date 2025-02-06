@@ -9,7 +9,7 @@ int mai(int a) {
     } else { 
         printf("1 0 1");
         for(int j = 3;j<a;j=j+2) {
-            printf(" 0 1 ");
+            printf(" 0 1");
         }
     }
 }
