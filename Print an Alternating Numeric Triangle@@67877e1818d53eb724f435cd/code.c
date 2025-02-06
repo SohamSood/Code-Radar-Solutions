@@ -6,9 +6,10 @@ int mai(int a) {
         }
     } else if(a == 1) {
         printf("1");
-    } else {
+    } else { 
+        printf("1 0 1");
         for(int j = 0;j<a-1;j++) {
-            printf("1 0 ");
+            printf(" 1 0 ");
         }
     }
 }
