@@ -1,7 +1,7 @@
 #include <stdio.h>
 int mai(int a) {
     if(a%2 == 0) {
-        for(int i = 0;i<a-1;i++) {
+        for(int i = 1;i<a-1;i++) {
             printf("0 1 ");
         }
     } else if(a == 1) {
