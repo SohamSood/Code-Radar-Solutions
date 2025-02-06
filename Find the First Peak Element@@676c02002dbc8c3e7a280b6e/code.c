@@ -14,6 +14,10 @@ int main() {
             if(myarr[i] > myarr[i+1]) {
                 printf("%d",&myarr[0]);
             }
+        } else if (i == a-1) {
+            if(myarr[i] > myarr[i-1]) {
+                printf("%d",myarr[i]);
+            }
         }
     }
 }
