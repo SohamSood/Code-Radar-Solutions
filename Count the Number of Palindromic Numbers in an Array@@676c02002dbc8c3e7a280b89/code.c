@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int check(int o,int u) {
-    int *myarr2 = malloc(u*(sizeof(int)));
+    int *myarr2 = malloc(u * (sizeof(int)));
     int m = 0;
     for(int v = 0;v<u;v++) {
         myarr[v] = o%10;
