@@ -4,7 +4,7 @@ int check(int o,int u) {
     int *myarr2 = malloc(u * (sizeof(int)));
     int m = 0;
     for(int v = 0;v<u;v++) {
-        myarr[v] = o%10;
+        myarr2[v] = o%10;
         o = o/10;
     }
     for(int k=0;k<u;k++) {
@@ -33,7 +33,6 @@ int main() {
         int d = myarr[p];
         int ab = 0;
         while(d>0) {
-            int e = d%10;
             d = d/10;
             c++;  
         }
