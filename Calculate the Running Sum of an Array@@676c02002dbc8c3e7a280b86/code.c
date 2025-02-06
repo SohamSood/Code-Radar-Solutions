@@ -10,6 +10,7 @@ int main(){
     }
     for(int i = 0;i<a;i++) {
         e = e+(myarr[i]);
+        printf("%d ",e);
     }
-    printf("%d",e);
+    
 }
