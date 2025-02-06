@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 int check(int o,int u) {
-    printf("*");
+    int *myarr2 = malloc(u*(sizeof(int)));
+    for(int v = 0;v<u;v++) {
+        myarr[v] = o%10;
+        o = o/10;
+    }
 }
 int main() {
     int a;
@@ -16,6 +20,6 @@ int main() {
             d = d/10;
             c++;  
         }
-        a = check(myarr[p],c);
+        z = check(myarr[p],c);
     }
 }
