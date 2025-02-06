@@ -14,5 +14,10 @@ int main() {
     int j;
     scanf("%d",&j);
     int *myarr = malloc(j*(sizeof(int)));
-
+    for(int p = 0;p<j;p++) {
+        scanf("%d",&myarr[p]);
+    }
+    for (int k=0;k<j;k++) {
+        sum(myarr[k]);
+    }
 }
