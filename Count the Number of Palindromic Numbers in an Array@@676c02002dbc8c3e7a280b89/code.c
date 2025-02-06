@@ -12,6 +12,7 @@ int check(int o,int u) {
             m++;
         }
     }
+    free(myarr2);
     if(m == u) {
         return u;
     } else {
