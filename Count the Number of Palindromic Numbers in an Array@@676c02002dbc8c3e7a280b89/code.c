@@ -8,11 +8,19 @@ int main() {
         int c = 0;
         int e;
         int d = myarr[p];
+        int o = 0;
+        int u = 0;
         while(d>0) {
             e = d%10;
             d = d/10;
             c++;  
         }
         int *myarr2 = malloc(c*(sizeof(int)));
+        int r= 0;
+        do(r++) {
+            o = myarr[p]%10;
+            myarr[p]=myarr[p]/10;
+        } while(myarr[p]>0);
+        
     }
 }
