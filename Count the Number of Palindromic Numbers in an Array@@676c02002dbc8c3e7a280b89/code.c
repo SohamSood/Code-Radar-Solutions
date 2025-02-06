@@ -27,6 +27,7 @@ int main() {
     for (int f = 0;f<a;f++) {
         scanf("%d",&myarr[f]);
     }
+    int e = 0;
     for(int p = 0;p<a;p++){
         int c = 0;
         int d = myarr[p];
@@ -36,5 +37,7 @@ int main() {
             c++;  
         }
         int z = check(myarr[p],c);
+        e = e+z;
     }
+    printf("%d",z);
 }
