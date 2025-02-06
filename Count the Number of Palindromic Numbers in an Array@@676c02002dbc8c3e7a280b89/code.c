@@ -20,6 +20,6 @@ int main() {
             d = d/10;
             c++;  
         }
-        z = check(myarr[p],c);
+        
     }
 }
