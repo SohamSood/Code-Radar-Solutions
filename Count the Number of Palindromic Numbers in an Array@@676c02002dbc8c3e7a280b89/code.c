@@ -15,11 +15,12 @@ int main() {
         int c = 0;
         int e;
         int d = myarr[p];
+        int n = myarr[p]
         while(d>0) {
             e = d%10;
             d = d/10;
             c++;  
         }
-        
+        z = check(n,c);
     }
 }
