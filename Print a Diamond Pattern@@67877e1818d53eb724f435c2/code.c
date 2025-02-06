@@ -21,7 +21,7 @@ int main() {
         for(int j=i;j<a-i;j++) {
             printf("*");
         }
-        printf("*");
+        printf("\n");
     }
 
 }
