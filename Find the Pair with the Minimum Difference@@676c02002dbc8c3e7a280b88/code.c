@@ -11,7 +11,7 @@ int main() {
     for (int l = 0;l<a;l++) {
         scanf("%d",&myarr[l]);
     }
-    int max = 0;
+    int max = INT_MAX;
     int index1 = 0;
     int index2 = 0;
     for(int i = 0;i<a;i++) {
