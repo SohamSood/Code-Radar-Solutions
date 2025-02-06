@@ -27,8 +27,6 @@ int main() {
                 break;
             }
         }
-        if(e == 0) {
-            printf("-1");
-        }
+
     }
 }
