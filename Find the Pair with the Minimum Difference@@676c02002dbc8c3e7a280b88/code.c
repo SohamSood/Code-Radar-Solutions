@@ -16,7 +16,7 @@ int main() {
     int index2 = 0;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
-            if(((abs(myarr[i]-myarr[j])<max || abs(myarr[j]-myarr[i])<max)) && i!=j) {
+            if(((abs(myarr[i]-myarr[j])<max)) && i!=j) {
                 max = (myarr[i]-myarr[j]);
                 index1 = myarr[i];
                 index2 = myarr[j];
