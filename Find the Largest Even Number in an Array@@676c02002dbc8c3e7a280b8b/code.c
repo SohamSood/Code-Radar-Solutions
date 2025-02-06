@@ -18,5 +18,9 @@ int main() {
             }
         }
     }
-    printf("%d",max);
+    if(max != INT_MIN) {
+        printf("%d",max);
+    } else {
+        printf("-1");
+    }
 }
