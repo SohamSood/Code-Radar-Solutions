@@ -8,7 +8,7 @@ int sum(int a) {
         e = e+b;
         a = a/10;
     }
-    printf("%d ",&e);
+    printf("%d ",e);
 }
 int main() {
     int j;
