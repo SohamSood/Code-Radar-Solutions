@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int prime(int a) {
     if(a == 0 ||a == 1|| a == 2) {
         printf("1 \n");
@@ -18,5 +19,12 @@ int prime(int a) {
 }
 int main() {
     int a;
-    scanf("%d");
+    scanf("%d",&a);
+    int *myarr = malloc(a*(sizeof(int)));
+    for(int p = 0;p<a;p++) {
+        scanf("%d",&a);
+    }
+    for(int y = 0;y<a;y++) {
+        primr(no);
+    }
 }
