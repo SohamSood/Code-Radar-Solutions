@@ -22,7 +22,7 @@ int main() {
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
     for(int p = 0;p<a;p++) {
-        scanf("%d",&a);
+        scanf("%d",&myarr[p]);
     }
     for(int y = 0;y<a;y++) {
         primr(myarr[y]);
