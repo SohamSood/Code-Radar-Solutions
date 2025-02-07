@@ -25,6 +25,6 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     for(int y = 0;y<a;y++) {
-        primr(myarr[y]);
+        prime(myarr[y]);
     }
 }
