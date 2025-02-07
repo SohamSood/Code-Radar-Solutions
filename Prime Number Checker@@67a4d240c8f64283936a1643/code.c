@@ -25,6 +25,6 @@ int main() {
         scanf("%d",&a);
     }
     for(int y = 0;y<a;y++) {
-        primr(no);
+        primr(myarr[y]);
     }
 }
