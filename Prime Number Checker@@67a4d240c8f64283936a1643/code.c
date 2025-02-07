@@ -4,7 +4,7 @@ int prime(int a) {
         printf("1");
     } else {
         int e = 0;
-        for(int i = 2;i<a;a++) {
+        for(int i = 2;i<a;i++) {
             if(a % i == 0) {
                 e++;
 
