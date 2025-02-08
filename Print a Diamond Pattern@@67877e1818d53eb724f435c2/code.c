@@ -19,7 +19,7 @@ int main() {
     --a;
     for(int i = 1;i<a;i++) {
         for(int p = 0;p<a-i;p++) {
-            printf(" ");
+            printf("*");
         }
         for(int k = 1;k<i;k++) {
             printf(" ");
