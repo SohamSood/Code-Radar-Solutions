@@ -14,7 +14,7 @@ int main() {
             e++;
         }
     }
-    printf("%d",e);
+    
     int r = 0;
     for(int j = a-e;j<a;j++) {
         printf("%d ",r);
