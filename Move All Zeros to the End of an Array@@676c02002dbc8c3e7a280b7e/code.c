@@ -14,8 +14,9 @@ int main() {
             e++;
         }
     }
+    int r = 0;
     for(int j = e;j<p;j++) {
-        printf(" 0");
+        printf("% d",r);
     }
 
 }
