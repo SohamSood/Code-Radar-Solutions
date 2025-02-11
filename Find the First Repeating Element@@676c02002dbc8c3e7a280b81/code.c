@@ -7,15 +7,15 @@ int main() {
     for(int i = 0;i<a;i++) {
         scanf("%d",&myarr[i]);
     }
-    // int e = 0;
-    // for(int k = 0;k<a;k++) {
-    //     for(int j = 0;j<a;j++) {
-    //         if((k != j) || (e == 0)) {
-    //             if(myarr[k] == myarr[j]) {
-    //                 printf("%d",myarr[k]);
-    //                 e++;
-    //             }
-    //         }
-    //     }
-    // }
+    int e = 0;
+    for(int k = 0;k<a;k++) {
+        for(int j = 0;j<a;j++) {
+            if((k != j) || (e == 0)) {
+                if(myarr[k] == myarr[j]) {
+                    printf("%d",myarr[k]);
+                    e++;
+                }
+            }
+        }
+    }
 }
