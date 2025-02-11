@@ -7,12 +7,12 @@ int main() {
     for(int i = 0;i<j;i++) {
         scanf("%d",&myarr[i]);
     }
-    int e = 0
-    for(int i = 0;i<a;i++) {
+    int e = 0;
+    for(int k = 0;k<a;k++) {
         for(int j = 0;j<a;j++) {
-            if((i != j) || (e == 0)) {
-                if(myarr[i] == myarr[j]) {
-                    printf("%d",myarr[i]);
+            if((k != j) || (e == 0)) {
+                if(myarr[k] == myarr[j]) {
+                    printf("%d",myarr[k]);
                     e++;
                 }
             }
