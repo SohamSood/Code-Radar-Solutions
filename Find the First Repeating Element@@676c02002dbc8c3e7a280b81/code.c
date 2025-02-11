@@ -10,12 +10,15 @@ int main() {
     int e = 0;
     for(int k = 0;k<a;k++) {
         for(int j = 0;j<a;j++) {
-            if((k != j) || (e == 0)) {
+            if((k != j) && (e == 0)) {
                 if(myarr[k] == myarr[j]) {
                     printf("%d",myarr[k]);
                     e++;
                 }
             }
         }
+    }
+    if(e == 0) {
+        printf("-1");
     }
 }
