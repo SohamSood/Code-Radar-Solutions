@@ -14,5 +14,8 @@ int main() {
             e++;
         }
     }
+    for(int j = e;j<p;j++) {
+        printf(" 0");
+    }
 
 }
