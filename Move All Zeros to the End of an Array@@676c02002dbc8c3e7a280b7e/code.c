@@ -16,7 +16,7 @@ int main() {
     }
     printf("%d",e);
     int r = 0;
-    for(int j = p-e;j<p;j++) {
+    for(int j = a-e;a<p;j++) {
         printf("%d ",r);
     }
 
