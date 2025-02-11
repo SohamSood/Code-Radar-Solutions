@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     int e = 0;
-    for(int i = 0,i<a;i++) {
+    for(int i = 0;i<a;i++) {
         if(myarr[i] != 0) {
             printf("%d ",myarr[i]);
             e++;
