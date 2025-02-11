@@ -15,8 +15,8 @@ int main() {
                 e++;
             }
         }
-        printf("%d",e);
-        printf("%d",a-e);
+        printf("%d ",e);
+        printf("%d ",a-e);
         if(e == (a-i)) {
             printf("%d ",myarr[i]);
         }
