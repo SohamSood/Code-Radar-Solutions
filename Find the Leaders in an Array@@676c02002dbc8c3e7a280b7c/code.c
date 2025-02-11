@@ -8,10 +8,9 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     for(int i = 0;i<a;i++) {
-        int o = myarr[i];
         int e = 0;
         for(int j = i+1;j<a-1;j++) {
-            if(o>myarr[j]) {
+            if(myarr[i]>myarr[j]) {
                 e++;
             }
         }
