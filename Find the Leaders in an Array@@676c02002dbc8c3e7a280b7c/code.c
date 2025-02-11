@@ -7,8 +7,15 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    for(int i = 0;i<a-1;i++) {
-        if(myarr[i]>myarr[i+1]) {
+    for(int i = 0;i<a;i++) {
+        int o = myarr[i];
+        int e = 0;
+        for(int j = i+1;j<a-1;j++) {
+            if(o>myarr[j]) {
+                e++;
+            }
+        }
+        if(e == (a-i)) {
             printf("%d ",myarr[i]);
         }
     }
