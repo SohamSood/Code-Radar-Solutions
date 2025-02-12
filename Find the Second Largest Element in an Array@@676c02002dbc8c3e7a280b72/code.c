@@ -24,7 +24,7 @@ int main() {
         } 
     }
     if(max2 == 0) {
-        printf("0");
+        printf("-1");
     } else {
     printf("%d",max2);
     }
