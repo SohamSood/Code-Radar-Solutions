@@ -18,7 +18,7 @@ int main() {
                     int u = i;
                     int p = j;
                     if(o != u) {
-                    printf("%d %d \n",myarr[i],myarr[j]);
+                        printf("%d %d \n",myarr[i],myarr[j]);
                     }
                 }
             } 
