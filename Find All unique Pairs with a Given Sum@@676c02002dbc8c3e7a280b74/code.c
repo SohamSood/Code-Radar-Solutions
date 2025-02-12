@@ -12,14 +12,8 @@ int main() {
     for(int i =0;i<a;i++) {
         for(int j = 0;j<a;j++) {
             if(i!=j) {
-                int o = i;
-                int y = j;
                 if((myarr[i] +myarr[j])==b) {
-                    int u = i;
-                    int p = j;
-                    if(o != u) {
-                        printf("%d %d \n",myarr[i],myarr[j]);
-                    }
+                    printf("%d %d \n",myarr[i],myarr[j]);    
                 }
             } 
         }
