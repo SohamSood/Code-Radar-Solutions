@@ -11,7 +11,7 @@ int main() {
     }
     for(int i =0;i<a;i++) {
         for(int j= i;j<a;j++) {
-            if(myarr[i]>myarr[j] && i<j) {
+            if(myarr[i]<myarr[j] && i<j) {
                 myarr2[i] = myarr[j];
             }
         }
