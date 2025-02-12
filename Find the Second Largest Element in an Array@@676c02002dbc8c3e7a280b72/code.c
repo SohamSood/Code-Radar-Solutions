@@ -18,7 +18,7 @@ int main() {
     }
     int max2 = 0;
     for(int j = 0;j<a;j++) {
-        if(myarr[j] != max) {
+        if(myarr[j] != maxx) {
             if (myarr[j]>max2) {
                 max2 = myarr[j];
             }
