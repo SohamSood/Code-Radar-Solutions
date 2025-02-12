@@ -9,6 +9,15 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    
+    for(int i =0;i<a;i++) {
+        for(int j= 0;j<a;j++) {
+            if(myarr[i]>myarr[j] && i<j) {
+                myarr2[i] = myarr[i];
+            }
+        }
+    }
+    for(int k = 0;k<a;k++) {
+        printf("%d ",myarr2[k]);
+    }
 
 }
