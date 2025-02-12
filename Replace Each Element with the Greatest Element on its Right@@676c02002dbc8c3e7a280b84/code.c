@@ -9,8 +9,8 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    for(int i =a;i>0;i++) {
-        for(int j=a;j>0;j++) {
+    for(int i =a;i>0;i--) {
+        for(int j=a;j>0;j--) {
             if(myarr[i]<myarr[j]) {
                 myarr2[i] = myarr[j];
             }
