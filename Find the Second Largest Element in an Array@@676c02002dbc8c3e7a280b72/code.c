@@ -16,7 +16,7 @@ int main() {
             maxx = myarr[i];
         }
     }
-    int max2 = 0;
+    int max2 = INT_MIN;
     for(int j = 0;j<a;j++) {
         if(myarr[j] != maxx) {
             if (myarr[j]>max2) {
