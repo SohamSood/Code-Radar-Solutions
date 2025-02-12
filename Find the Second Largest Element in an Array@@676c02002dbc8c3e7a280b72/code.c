@@ -10,13 +10,13 @@ int main() {
     for(int h = 0;h<a;h++ ) {
         scanf("%d",&myarr[h]);
     }
-    int maxx = INT_MIN;
+    int maxx = 0;
     for(int i = 0;i<a;i++) {
         if(myarr[i]>maxx) {
             maxx = myarr[i];
         }
     }
-    int max2 = 0;
+    int max2 = INT_MIN;
     for(int j = 0;j<a;j++) {
         if(myarr[j] != maxx) {
             if (myarr[j]>max2) {
