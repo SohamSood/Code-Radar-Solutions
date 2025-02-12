@@ -17,7 +17,7 @@ int main() {
                 if((myarr[i] +myarr[j])==b) {
                     int u = i;
                     int p = j;
-                    if(o != u {
+                    if(o != u) {
                     printf("%d %d \n",myarr[i],myarr[j]);
                     }
                 }
