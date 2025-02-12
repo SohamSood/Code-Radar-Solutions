@@ -21,6 +21,6 @@ int main() {
         myarr2[i] = e;      
     }
     for(int k =0;k<a;k++) {
-        printf("%d",myarr2[k]);
+        printf("%d \n",myarr2[k]);
     }
 }
