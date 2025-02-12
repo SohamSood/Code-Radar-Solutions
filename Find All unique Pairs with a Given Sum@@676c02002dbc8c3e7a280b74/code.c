@@ -13,7 +13,7 @@ int main() {
         for(int j = 0;j<a;j++) {
             if(i!=j) {
                 if((myarr[i] +myarr[j])==b) {
-                    printf("%d %d \n",i,j);
+                    printf("%d %d \n",myarr[i],myarr[j]);
                 }
             } 
         }
