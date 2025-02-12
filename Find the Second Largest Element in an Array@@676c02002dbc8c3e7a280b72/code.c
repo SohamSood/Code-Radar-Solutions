@@ -15,5 +15,13 @@ int main() {
             max = myarr[i];
         }
     }
-    printf("%d",max);
+    int max2 = 0;
+    for(int j = 0;j<a;j++) {
+        if(myarr[j] != max) {
+            if (myarr[j]>max2) {
+                max2 = myarr[j];
+            }
+        } 
+    }
+    printf("%d",max2);
 }
