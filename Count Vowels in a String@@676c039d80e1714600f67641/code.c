@@ -10,7 +10,6 @@ int main() {
             if(vowels[u] == a[i]) {
                 j++;
             }
-        }
-    }
+        }q
     printf("%d",j);
 }
