@@ -16,9 +16,10 @@ int main() {
         }
     }
 
-    if(strlen(a) == strlen(b) == e)  {
-        printf("Yes");
-    } else {
-        printf("No");
-    }
+    printf("%d %lu %lu",e,strlen(a),strlen(b));
+    // if(strlen(a) == strlen(b) == e)  {
+    //     printf("Yes");
+    // } else {
+    //     printf("No");
+    // }
 }
