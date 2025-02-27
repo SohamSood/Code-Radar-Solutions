@@ -7,7 +7,7 @@ int main() {
     char vowels[10]={'a','e','i','o','u','A','I','O','U','E'};
     for (int i = 0;i<sizeof(a);i++) {
         for(int u = 0;u<10;u++) {
-            if(vowels[u] == a[i]) {
+            if(vowels[i] == a[u]) {
                 j++;
             }
         }
