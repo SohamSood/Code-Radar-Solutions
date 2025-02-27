@@ -12,6 +12,7 @@ int main() {
             }
         }
     }
+    printf("%d",e);
     if(strlen(a)==strlen(b) == e)  {
         printf("Yes");
     } else {
