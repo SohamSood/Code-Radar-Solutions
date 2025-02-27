@@ -15,11 +15,9 @@ int main() {
             }
         }
     }
-
-    printf("%d %lu %lu",e,strlen(a),strlen(b));
-    // if(strlen(a) == strlen(b) == e)  {
-    //     printf("Yes");
-    // } else {
-    //     printf("No");
-    // }
+    if(int(strlen(a)) == int(strlen(b)) == e)  {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
 }
