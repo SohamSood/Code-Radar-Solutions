@@ -8,7 +8,7 @@ int main() {
             char k = aa[i] -32;
             printf("%c",k);
         } else  {
-            printf("%c",i);
+            printf("%c",a[i]);
         }
     }
 }
