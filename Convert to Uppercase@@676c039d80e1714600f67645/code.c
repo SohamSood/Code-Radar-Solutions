@@ -7,8 +7,10 @@ int main() {
         if(aa[i] >= 'a' && aa[i] <= 'z') {
             char k = aa[i] -32;
             printf("%c",k);
-        } else  {
+        } else {
             printf("%c",aa[i]);
+        } if(a[i]== " ") {
+            printf(" ");
         }
     }
 }
