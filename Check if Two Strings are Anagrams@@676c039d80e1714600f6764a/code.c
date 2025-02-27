@@ -13,7 +13,7 @@ int main() {
             }
         }
     }
-    printf("%d",(int)strlen(a));
+    printf("%lu",strlen(a));
 
     // if(strlen(a)==strlen(b) == e)  {
     //     printf("Yes");
