@@ -15,11 +15,10 @@ int main() {
             }
         }
     }
-    printf("%lu",e);
 
-    // if(strlen(a)==strlen(b) == e)  {
-    //     printf("Yes");
-    // } else {
-    //     printf("No");
-    // }
+    if(strlen(a)==strlen(b) == e)  {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
 }
