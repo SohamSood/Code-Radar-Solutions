@@ -9,6 +9,7 @@ int main() {
         for(int j = 0;j<100;j++) {
             if(a[i] == b[j]) {
                 e++;
+                break;
             }
         }
     }
