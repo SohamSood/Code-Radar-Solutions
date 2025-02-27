@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char aa[100];
-    scanf("%s",aa);
+    fgets(aa, sizeof(aa), stdin);
     for(int i=0;i<strlen(aa);i++) {
         if(aa[i] >= 'a' && aa[i] <= 'z') {
             char k = aa[i] -32;
