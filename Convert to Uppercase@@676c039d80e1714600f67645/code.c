@@ -5,8 +5,7 @@ int main() {
     scanf("%d",&a);
     for(int i=0;i<strlen(a);i++) {
         int c = a[i];
-        c = c+32;
+        c = c-32;
         printf("%c",c);
-
     }
 }
