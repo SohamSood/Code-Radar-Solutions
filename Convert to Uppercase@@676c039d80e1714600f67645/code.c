@@ -4,6 +4,9 @@ int main() {
     char a[100];
     scanf("%d",&a);
     for(int i=0;i<strlen(a);i++) {
-        printf("%c",(a[i] + (32)));
+        int c = a[i];
+        c = c+32;
+        printf("%c",c);
+
     }
 }
