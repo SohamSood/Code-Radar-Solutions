@@ -7,7 +7,7 @@ int main() {
     scanf("%s",a);
     scanf("%c",&b);
     for(int e=0;e<100;e++) {
-        if(a[e] == b) {
+        if(char a[e] == char b) {
             k++;
         }
     }
