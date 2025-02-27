@@ -15,7 +15,7 @@ int main() {
             }
         }
     }
-    if((int)strlen(a) == (int)strlen(b) == e)  {
+    if(((int)strlen(a) == (int)strlen(b))&& ((int)strlen(b) == e))  {
         printf("Yes");
     } else {
         printf("No");
