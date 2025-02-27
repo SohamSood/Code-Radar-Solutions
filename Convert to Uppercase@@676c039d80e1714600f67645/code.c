@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char a[100];
-    scanf("%s",&a);
-    for(int i=0;i<strlen(a);i++) {
-        if(a[i]>a && a[i]<z) {
-            char k = a[i] -32;
+    char aa[100];
+    scanf("%s",aa);
+    for(int i=0;i<strlen(aa);i++) {
+        if(aa[i]> 'a' && aa[i]< 'z') {
+            char k = aa[i] -32;
             printf("%c",k);
         } else  {
             printf("%c",i);
