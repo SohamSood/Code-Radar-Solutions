@@ -15,7 +15,7 @@ int main() {
             }
         }
     }
-    printf("%lu",strlen(a));
+    printf("%lu",e);
 
     // if(strlen(a)==strlen(b) == e)  {
     //     printf("Yes");
