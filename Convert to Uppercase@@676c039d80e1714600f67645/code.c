@@ -7,6 +7,8 @@ int main() {
         if(a[i]>a && a[i]<z) {
             char k = a[i] -32;
             printf("%c",k);
+        } else  {
+            printf("%c",i);
         }
     }
 }
