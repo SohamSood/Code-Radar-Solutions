@@ -6,8 +6,8 @@ int main() {
     int j = 0;
     for (int i = 0;i<sizeof(a);i++) {
         char vowels[10]={'a','e','i','o','u','A','I','O','U','E'};
-        for(int j = 0;j<10;j++) {
-            if(vowels[j] == a[i]) {
+        for(int u = 0;u<10;u++) {
+            if(vowels[u] == a[i]) {
                 j++;
             }
         }
