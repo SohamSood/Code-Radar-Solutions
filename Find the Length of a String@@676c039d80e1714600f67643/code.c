@@ -3,6 +3,6 @@
 #include <string.h>
 int main() {
     char a[100];
-    scanf("%d",a);
+    scanf("%c",a);
     printf("%d",strlen(a));
 }
