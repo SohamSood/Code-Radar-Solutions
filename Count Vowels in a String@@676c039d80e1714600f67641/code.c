@@ -9,7 +9,7 @@ int main() {
         for(int u = 0;u<10;u++) {
             if(vowels[u] == a[i]) {
                 j++;
-            }
+                }
             }
         }
     printf("%d",j);
