@@ -11,7 +11,7 @@ int main() {
     if(a == 1) {
         printf("%d",myarr[0]);
     } else if(a == 2) {
-        int g = ((myarr[1]+myarr[1])/2);
+        int g = ((myarr[1]+myarr[2])/2);
         printf("%d",g);
     }
     else if(a%2 != 0) {
