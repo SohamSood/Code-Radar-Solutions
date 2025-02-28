@@ -17,5 +17,5 @@ int main() {
             num = a[i];
         }
     }
-    printf("%c",char);
+    printf("%c",num);
 }
