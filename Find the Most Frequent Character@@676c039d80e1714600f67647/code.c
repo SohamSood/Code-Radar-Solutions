@@ -24,5 +24,7 @@ int main() {
     }
     if(maxx != 0) {
         printf("%c",num);
+    } else {
+        printf("%c",d);
     }
 }
