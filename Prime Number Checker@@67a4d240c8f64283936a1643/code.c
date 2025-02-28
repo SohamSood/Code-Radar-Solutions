@@ -6,7 +6,7 @@ int isPrime(int a) {
         }
     }
     if((a == 0) || (a == 1) || (e != 0)) {
-        return 0;
+        return e;
     } else if((a == 2) || (e == 0)) {
         return 1;
     }
