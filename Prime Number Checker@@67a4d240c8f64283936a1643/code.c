@@ -17,7 +17,7 @@ void prime(int a) {
         }
     }
 }
-int main() {
+int main( ) {
     int a;
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
