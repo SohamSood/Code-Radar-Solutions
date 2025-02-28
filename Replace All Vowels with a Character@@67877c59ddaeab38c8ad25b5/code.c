@@ -5,7 +5,7 @@ int main() {
     char a[100],d;
     fgets(a,100,stdin);
     scanf("%c",d);
-    char vowels = {'a','i','e','o','u','A','E','O','I','U'};
+    char vowels[10] = {'a','i','e','o','u','A','E','O','I','U'};
     for(int i = 0;i<strlen(a);i++) {
         int e = 0;
         for(int j = 0;j<10;j++) {
