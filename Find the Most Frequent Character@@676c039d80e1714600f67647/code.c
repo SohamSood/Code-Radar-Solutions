@@ -5,9 +5,9 @@ int main() {
     fgets(a,sizeof(a),stdin);
     int maxx=0;
     char num;
-    for(int i = 0;i<100;i++) {
+    for(int i = 0;i<strlen(a);i++) {
         int count = 0;
-        for(int j=0;j<100;j++) {
+        for(int j=0;strlen(a);j++) {
             if((i!=j) && (a[i] == a[j])) {
                 count++;
                 printf("&");
