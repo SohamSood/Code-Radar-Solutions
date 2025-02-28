@@ -16,7 +16,7 @@ int main() {
         if(count>maxx) {
             maxx = count;
             num = a[i];
-        } else if (cout == maxx) {
+        } else if (count == maxx) {
             if(a[i]<num) {
                 num = a[i]; 
             }
