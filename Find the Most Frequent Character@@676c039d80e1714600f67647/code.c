@@ -22,9 +22,10 @@ int main() {
             }
         }
     }
+    char f = 'd';
     if(maxx != 0) {
         printf("%c",num);
     } else {
-        printf("%c",d);
+        printf("%c",f);
     }
 }
