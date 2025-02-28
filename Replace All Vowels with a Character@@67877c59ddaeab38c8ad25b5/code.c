@@ -3,7 +3,7 @@
 #include <string.h>
 int main() {
     char a[100],d;
-    fgets(a,100,stdin);
+    scanf("%s",a);
     scanf("%c",d);
     char vowels[10] = {'a','i','e','o','u','A','E','O','I','U'};
     for(int i = 0;i<strlen(a);i++) {
