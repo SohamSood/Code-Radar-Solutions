@@ -29,6 +29,7 @@ int main() {
         for(int j = 0;j<strlen(a);j++) {
             if(a[j]<num) {
                 af = a[j];
+                printf("*");
             }
         }
         printf("%c",af);
