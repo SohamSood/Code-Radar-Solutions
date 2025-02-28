@@ -25,7 +25,7 @@ int main() {
     if(maxx != 0) {
         printf("%c",num);
     } else {
-        char af;
+        char af='a';
         for(int j = 0;j<strlen(a);j++) {
             if(a[j]<num) {
                 af = a[j];
