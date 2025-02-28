@@ -10,10 +10,7 @@ int main() {
     }
     if(a == 1) {
         printf("%d",myarr[0]);
-    } else if(a == 2) {
-        int g = ((myarr[1]+myarr[0])/2);
-        printf("%d",g);
-    }
+    } 
     else if(a%2 != 0) {
         int e = a/2;
         int f = myarr[e];
