@@ -20,7 +20,7 @@ int main() {
         printf("%d",f);
     } else {
         int e = a/2;
-        int f = (a/2)+1;
+        int f = (a/2)-1;
         int g = ((myarr[e]+myarr[f])/2);
         printf("%d",g);
     }
