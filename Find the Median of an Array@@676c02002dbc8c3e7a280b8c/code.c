@@ -10,7 +10,7 @@ int main() {
     }
     if(a%2 != 0) {
         int e = a/2;
-        int f = a[e];
+        int f = myarr[e];
         printf("%d",f);
 
     }
