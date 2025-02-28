@@ -10,7 +10,8 @@ int main() {
     }
     if(a%2 != 0) {
         int e = a/2;
-        printf("%d",a[e]);
+        int f = a[e];
+        printf("%d",f);
 
     }
 }
