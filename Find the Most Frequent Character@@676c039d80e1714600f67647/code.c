@@ -25,12 +25,12 @@ int main() {
     if(maxx != 0) {
         printf("%c",num);
     } else {
-        char f;
+        char af;
         for(int j = 0;j<strlen(a);j++) {
             if(a[j]<num) {
-                f = a[j];
+                af = a[j];
             }
         }
-        printf("%c",f);
+        printf("%c",af);
     }
 }
