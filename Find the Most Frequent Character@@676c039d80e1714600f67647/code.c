@@ -9,7 +9,7 @@ int main() {
         int count = 0;
         for(int j=0;j<100;j++) {
             if((i!=j) && (a[i] == a[j])) {
-                max++;
+                count++;
             }
         }
         if(count>maxx) {
