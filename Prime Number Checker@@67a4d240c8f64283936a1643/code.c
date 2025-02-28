@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int prime(int a) {
+void prime(int a) {
     if(a == 0 ||a == 1|| a == 2) {
         printf("1 \n");
     } else {
