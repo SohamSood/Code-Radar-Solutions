@@ -7,6 +7,7 @@ int main() {
     char num;
     for(int i = 0;i<strlen(a);i++) {
         int count = 0;
+        char num2 = a[i];
         for(int j=0;j<strlen(a);j++) {
             if((i!=j) && (a[i] == a[j])) {
                 count++;
@@ -15,6 +16,10 @@ int main() {
         if(count>maxx) {
             maxx = count;
             num = a[i];
+        } else if (cout == maxx) {
+            if(a[i]<num) {
+                num = a[i]; 
+            }
         }
     }
     printf("%c",num);
