@@ -21,11 +21,8 @@ int main() {
                 num = a[i]; 
             }
         }
-        //  else if(count == 0) {
-        //     if(a[i]<num) {
-        //         num = a[i];
-        //     }
-        // }
     }
-    printf("%c",num);
+    if(maxx != 0) {
+        printf("%c",num);
+    }
 }
