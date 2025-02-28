@@ -9,7 +9,7 @@ int main() {
     char vowels[11] = {'a','i','e','o','u','A','E','O','I','U',' '};
     for(int i=0;i<strlen(a);i++) {
         for(int j = 0;j<11;j++) {
-            if((a[i] == vowels[j]) || (isdigit())){
+            if((a[i] == vowels[j])||(isdigit(a[i]))){
                 printf("%c",a[i]);
             }
         }
