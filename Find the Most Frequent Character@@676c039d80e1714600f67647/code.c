@@ -10,7 +10,6 @@ int main() {
         for(int j=0;j<strlen(a);j++) {
             if((i!=j) && (a[i] == a[j])) {
                 count++;
-                printf("&");
             }
         }
         if(count>maxx) {
