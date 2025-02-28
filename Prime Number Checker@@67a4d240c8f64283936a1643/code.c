@@ -20,7 +20,7 @@ int isPrime(int a) {
             e++;
         }
     }
-    if(a == 0) || (a == 1) {
+    if((a == 0) || (a == 1)) {
         printf("0 \n");
     } else if((a == 2) || (e == 0)) {
         printf("1 \n");
