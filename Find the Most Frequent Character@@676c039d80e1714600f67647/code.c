@@ -7,7 +7,7 @@ int main() {
     char num;
     for(int i = 0;i<strlen(a);i++) {
         int count = 0;
-        for(int j=0;strlen(a);j++) {
+        for(int j=0;j<strlen(a);j++) {
             if((i!=j) && (a[i] == a[j])) {
                 count++;
                 printf("&");
