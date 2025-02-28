@@ -9,7 +9,8 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     if(a%2 != 0) {
-        int e = (a/2)+1;
-        printf("%d",e);
+        int e = a/2;
+        printf("%d",a[e]);
+
     }
 }
