@@ -27,7 +27,7 @@ int main() {
     } else {
         char af=a[0];
         for(int j = 0;j<strlen(a);j++) {
-            if(a[j]<num) {
+            if(a[j]>num) {
                 af = a[j];
                 printf("*");
             }
