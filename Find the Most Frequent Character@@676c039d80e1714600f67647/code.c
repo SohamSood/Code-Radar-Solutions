@@ -6,14 +6,14 @@ int main() {
     int maxx=0;
     char num;
     for(int i = 0;i<100;i++) {
-        int max = 0;
+        int count = 0;
         for(int j=0;j<100;j++) {
             if((i!=j) && (a[i] == a[j])) {
                 max++;
             }
         }
-        if(max>maxx) {
-            maxx = max;
+        if(count>maxx) {
+            maxx = count;
             num = a[i];
         }
     }
