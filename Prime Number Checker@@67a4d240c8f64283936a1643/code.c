@@ -12,7 +12,7 @@
 //         prime(myarr[y]);
 //     }
 // }
-int prime(int a) {
+int isPrime(int a) {
     if(a == 0 ||a == 1|| a == 2) {
         printf("1 \n");
     } else {
