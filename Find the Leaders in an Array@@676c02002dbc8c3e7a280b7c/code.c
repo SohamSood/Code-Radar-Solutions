@@ -10,11 +10,11 @@ int main() {
     for(int i = 0;i<a;i++) {
         int e = 0;
         for(int j = i+1;j<a-1;j++) {
-            if(myarr[i]>myarr[j]) {
+            if(myarr[i]<myarr[j]) {
                 e++;
             }
         }
-        if(e == (a-i)) {
+        if(e == 0) {
             printf("%d ",myarr[i]);
         }
     }
