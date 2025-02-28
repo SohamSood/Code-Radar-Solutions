@@ -14,7 +14,7 @@ int main() {
             }
         }
         if(e == 0) {
-            printf("%d",a[i]);
+            printf("%c",a[i]);
         } else {
             printf("%c",d);
         }
