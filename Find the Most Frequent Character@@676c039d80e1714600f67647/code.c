@@ -20,7 +20,8 @@ int main() {
             if(a[i]<num) {
                 num = a[i]; 
             }
-        // } else if(count == 0) {
+        }
+        //  else if(count == 0) {
         //     if(a[i]<num) {
         //         num = a[i];
         //     }
