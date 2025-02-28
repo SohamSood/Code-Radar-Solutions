@@ -22,10 +22,15 @@ int main() {
             }
         }
     }
-    char f = 'd';
     if(maxx != 0) {
         printf("%c",num);
     } else {
+        char f;
+        for(int j = 0;j<strlen(a);j++) {
+            if(a[j]<num) {
+                f = a[j];
+            }
+        }
         printf("%c",f);
     }
 }
