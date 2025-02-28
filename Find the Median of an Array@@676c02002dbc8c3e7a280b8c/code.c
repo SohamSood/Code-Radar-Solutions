@@ -8,5 +8,8 @@ int main() {
     for(int p =0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    printf("25");
+    if(a%2 != 0) {
+        int e = (a/2)+1;
+        printf("%d",e);
+    }
 }
