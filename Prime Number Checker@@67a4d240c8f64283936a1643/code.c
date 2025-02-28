@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+void prime(int a);
 int main() {
     int a;
     scanf("%d",&a);
