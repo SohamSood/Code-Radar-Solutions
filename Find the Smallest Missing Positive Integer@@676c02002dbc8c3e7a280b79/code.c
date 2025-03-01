@@ -15,8 +15,8 @@ int main() {
     }
     int max=myarr[0];
     for(int i =0;i<a;i++) {
-        if(min<myarr[i]) {
-            min = myarr[i];
+        if(max<myarr[i]) {
+            max = myarr[i];
         }
     }
     int diff = max - min;
