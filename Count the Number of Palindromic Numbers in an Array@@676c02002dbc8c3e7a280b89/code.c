@@ -11,7 +11,7 @@ int main() {
     for(int i = 0;i<a;i++) {
         int c = myarr[i];
         int f = 0;
-        while(c<0) {
+        while(c>0) {
             f = (f*10) + (c%10);
             c = c/10;
         }
