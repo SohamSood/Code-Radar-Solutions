@@ -13,5 +13,23 @@ int main() {
             min = myarr[i];
         }
     }
-    printf("%d",min);
+    int max=myarr[0];
+    for(int i =0;i<a;i++) {
+        if(min<myarr[i]) {
+            min = myarr[i];
+        }
+    }
+    int diff = max - min;
+    for(int i =min; i <maxx;i++) {
+        int e = 0;
+        for(int j = 0;j<a;j++) {
+            if(i == myarr[j]) {
+                e++;
+            }
+        }
+        if(e == 0) {
+            printf("%d",myarr[i]);
+        }
+    }
+    
 }
