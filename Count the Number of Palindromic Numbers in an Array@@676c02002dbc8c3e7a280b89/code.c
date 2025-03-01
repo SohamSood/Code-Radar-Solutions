@@ -16,6 +16,7 @@ int main() {
             f = (f*10) + d;
             c = c/10;
         }
+        printf("%d",f);
         if(f == myarr[i]) {
             e++;
         }
