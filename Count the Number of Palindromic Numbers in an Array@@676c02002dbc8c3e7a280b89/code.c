@@ -1,25 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-int check(int o,int u) {
-    int *myarr2 = malloc(u * (sizeof(int)));
-    int m = 0;
-    for(int v = 0;v<u;v++) {
-        myarr2[v] = o%10;
-        o = o/10;
-    }
-    for(int k=0;k<u;k++) {
-        if(myarr2[k]==myarr2[u-k-1]) {
-            m++;
-        }
-    }
-    free(myarr2);
-    if(m == u) {
-        return u;
-    } else {
-        return 0;
-    }
-    
-}
 int main() {
     int a;
     scanf("%d",&a);
@@ -27,16 +7,18 @@ int main() {
     for (int f = 0;f<a;f++) {
         scanf("%d",&myarr[f]);
     }
-    int ab = 0;
-    for(int p = 0;p<a;p++){
-        int c = 0;
-        int d = myarr[p];
-        while(d>0) {
-            d = d/10;
-            c++;  
+    int e = 0;
+    for(int i = 0;i<a;i++) {
+        int c = myarr[i];
+        int f = 0;
+        while(c<0) {
+            int d = c%10;
+            f = (f*10) + d;
+            c = c/10;
         }
-        int z = check(myarr[p],c);
-        ab = ab+z;
+        if(f == a[i]) {
+            e++;
+        }
     }
-    printf("%d",ab);
+    printf("%d",e);
 }
