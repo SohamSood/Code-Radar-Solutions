@@ -2,13 +2,13 @@
 #include <stdlib.h>
 int main() {
     int a;
+    int h = a/2;
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
     int *myarr2 = malloc(a*(sizeof(int)));
     for(int p =0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    
     for(int i = 0;i<a;i++) {
         int count = 0;
         for(int j = 0;j<a;j++) {
@@ -34,7 +34,7 @@ int main() {
             index = i;
         }
     }
-    if(count1 == maxx) {
+    if((count1 == maxx)&&(count1 > h) {
         printf("%d",myarr[index]);
     } else {
         printf("-1");
