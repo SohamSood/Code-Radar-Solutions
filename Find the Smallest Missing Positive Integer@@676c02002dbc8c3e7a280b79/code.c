@@ -20,7 +20,7 @@ int main() {
         }
     }
     int diff = max - min;
-    for(int i =min; i <maxx;i++) {
+    for(int i =min; i <max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
             if(i == myarr[j]) {
