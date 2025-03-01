@@ -11,11 +11,22 @@ int main() {
     for(int i = 0;i<a;i++) {
         int b = myarr[i];
         int count = 0;
-        for(int j = 0;j<a;j++) {
-            if(b == myarr[j]) {
-                count++;
+        myarr2[i] = b;
+        int e = 0;
+        for(int i = 0;i<a;i++) {
+            for(int j = 0;j<a;j++) {
+                if(myarr[i] == myarr[j]) {
+                    e++;
+                }
             }
         }
-        printf("%d %d \n",b,count);
+        if(e == 0) {
+            for(int j = 0;j<a;j++) {
+                if(b == myarr[j]) {
+                    count++;
+                }
+            }
+            printf("%d %d \n",b,count);
+        }
     }
 }
