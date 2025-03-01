@@ -19,6 +19,7 @@ int main() {
             max = myarr[i];
         }
     }
+    printf("%d %d",max,min);
     for(int i = min;i<=max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
