@@ -18,7 +18,7 @@ int main() {
         }
         myarr2[i] = count;
     }
-    int maxx = a[0];
+    int maxx = myarr2[0];
     for(int i = 0;i<a;i++) {        
         for(int j = 0;j<a;j++) {
             if(myarr[i]<myarr[j]) {
