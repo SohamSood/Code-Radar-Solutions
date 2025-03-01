@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
     int *myarr2 = malloc(a*(sizeof(int)));
-    for(int p =0;p<;p++) {
+    for(int p =0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
     
@@ -19,6 +19,6 @@ int main() {
         myarr2[i] = count;
     }
     for(int j = 0;j<a;j++) {
-        printf("%d ",myarr2[i]);
+        printf("%d ",myarr2[j]);
     }
 }
