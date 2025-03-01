@@ -18,7 +18,26 @@ int main() {
         }
         myarr2[i] = count;
     }
-    for(int j = 0;j<a;j++) {
-        printf("%d ",myarr2[j]);
+    int maxx = a[0];
+    for(int i = 0;i<a;i++) {        
+        for(int j = 0;j<a;j++) {
+            if(myarr[i]<myarr[j]) {
+                maxx= myarr[j];
+            }
+        }
     }
+    int count1 = 0;
+    int index = 0;
+    for(int i = 0;i<a;i++) {        
+        if(myarr[i] == maxx){
+            count1++;
+            index = i;
+        }
+    }
+    if(count1 == maxx) {
+        printf("%d",myarr[index]);
+    } else {
+        printf("-1");
+    }
+
 }
