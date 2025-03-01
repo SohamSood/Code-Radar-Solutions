@@ -1,13 +1,29 @@
-// Your code here...
-#include <stdio.h>
-int main() {
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i = 0;i<n;i++) {
-        scanf("%d",&arr[i]);
+int bubblesort(int *myarr,int a) {
+    
+    int min=myarr[0];
+    for(int i =0;i<a;i++) {
+        if(min>myarr[i]) {
+            min = myarr[i];
+        }
     }
-    // bubbleSort(arr,n);
-    // printarray(arr,n);
-    return 0;
+    int max=myarr[0];
+    for(int i =0;i<a;i++) {
+        if(max<myarr[i]) {
+            max = myarr[i];
+        }
+    }
+    for(int i = min;i<=max;i++) {
+        int e = 0;
+        for(int j = 0;j<a;j++) {
+            if(myarr[j] == i) {
+                e++;
+            }
+        }
+        if(e == 0) {
+            int r = 0;
+
+        } else {
+            return myarr[i];
+        }
+    }
 }
