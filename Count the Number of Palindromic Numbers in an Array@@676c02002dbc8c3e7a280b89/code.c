@@ -12,11 +12,10 @@ int main() {
         int c = myarr[i];
         int f = 0;
         while(c<0) {
-            int d = c%10;
-            f = (f*10) + d;
+            f = (f*10) + (c%10);
             c = c/10;
         }
-        printf("%d",f);
+        printf("%d ",f);
         if(f == myarr[i]) {
             e++;
         }
