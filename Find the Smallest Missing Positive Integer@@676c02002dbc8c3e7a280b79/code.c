@@ -27,10 +27,10 @@ int main() {
                 e++;
             }
         }
-        // printf("%d ",e);
-        if(e == 0) {
-            printf("%d ",myarr[i]);
-        }
+        printf("%d ",e);
+        // if(e == 0) {
+        //     printf("%d ",myarr[i]);
+        // }
     }
     
 }
