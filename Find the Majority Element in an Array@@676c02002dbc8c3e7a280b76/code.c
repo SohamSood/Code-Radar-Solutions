@@ -34,12 +34,12 @@ int main() {
             index = i;
         }
     }
-    printf("%d %d",count1,h);
-    // if((count1 == maxx)&&(count1 > h)) {
-    //     printf("%d",myarr[index]);
-    // } else {
-    //     printf("-1");
-    // }
+    // printf("%d %d",count1,h);
+    if((count1 == maxx)&&(count1 > h)) {
+        printf("%d",myarr[index]);
+    } else {
+        printf("-1");
+    }
     // printf("%d %d \n",maxx,count1);
     // for(int j = 0;j<a;j++) {
     //     printf("%d ",myarr2[j]);
