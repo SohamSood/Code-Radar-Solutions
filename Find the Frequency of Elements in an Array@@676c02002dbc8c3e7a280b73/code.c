@@ -15,7 +15,7 @@ int main() {
         int e = 0;
         for(int i = 0;i<a;i++) {
             for(int j = 0;j<a;j++) {
-                if(myarr[i] == myarr[j]) {
+                if(myarr[i] == myarr2[j]) {
                     e++;
                 }
             }
@@ -30,4 +30,5 @@ int main() {
         //     printf("%d %d \n",b,count);
         // }
     }
+    for()
 }
