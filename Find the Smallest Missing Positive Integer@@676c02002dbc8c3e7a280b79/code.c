@@ -20,13 +20,14 @@ int main() {
         }
     }
     int diff = max - min;
-    for(int i =min; i <max;i++) {
+    for(int i =min;i<max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
             if(i == myarr[j]) {
                 e++;
             }
         }
+        printf("%d ",e);
         if(e == 0) {
             printf("%d",myarr[i]);
         }
