@@ -26,4 +26,9 @@ int bubbleSort(int *myarr,int a) {
             return myarr[i];
         }
     }
+}  
+int printarr(int *myarr,int n) {
+    for(int i = 0;i<n;i++) {
+        printf("%d ",myarr[i]);
+    }
 }
