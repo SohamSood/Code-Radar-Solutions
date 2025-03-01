@@ -7,30 +7,30 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    int min=myarr[0];
-    for(int i =0;i<a;i++) {
-        if(min>myarr[i]) {
-            min = myarr[i];
-        }
-    }
+    // int min=myarr[0];
+    // for(int i =0;i<a;i++) {
+    //     if(min>myarr[i]) {
+    //         min = myarr[i];
+    //     }
+    // }
     int max=myarr[0];
     for(int i =0;i<a;i++) {
         if(max<myarr[i]) {
             max = myarr[i];
         }
     }
-    int diff = max - min;
-    for(int i =min;i<max;i++) {
+    for(int i = 0;i<max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
-            if(i == myarr[j]) {
+            if(myarr[j] == i) {
                 e++;
             }
         }
-        printf("%d %d \n",e,myarr[i]);
-        // if(e == 0) {
-        //     printf("%d ",myarr[i]);
-        // }
+        if(e == 0) {
+            int r = 0;
+
+        } else {
+            printf("%d",i);
+        }
     }
-    
 }
