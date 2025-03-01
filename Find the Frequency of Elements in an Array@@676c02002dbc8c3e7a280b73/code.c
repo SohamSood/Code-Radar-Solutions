@@ -8,16 +8,27 @@ int main() {
     for(int p =0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
+    int size = 0;
     for(int i = 0;i<a;i++) {
         int b = myarr[i];
-        int count = 0;
-        myarr2[i] = b;
-        for(int j = 0;j<a;j++) {
-            if(b == myarr[j]) {
-                count++;
+        int e = 0;
+        for(int k = 0; k<size;k++) {
+            if(b == myarr2[k]) {
+                e++;
             }
         }
-        printf("%d %d \n",b,count);
+        
+        myarr2[i] = b;
+        size++;
+        if(e == 0) {
+            int count = 0;
+            for(int j = 0;j<a;j++) {
+                if(b == myarr[j]) {
+                    count++;
+                }
+            }
+            printf("%d %d \n",b,count);
+        }
         
     }
     
