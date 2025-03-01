@@ -27,11 +27,11 @@ int main() {
                 e++;
             }
         }
-        if(e == 0) {
-            int r = 0;
+        // if(e == 0) {
+        //     int r = 0;
 
-        } else {
-            printf("%d ",i);
-        }
+        // } else {
+        //     printf("%d ",i);
+        // }
     }
 }
