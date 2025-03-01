@@ -6,6 +6,9 @@ int main() {
     int f = 0;
     scanf("%d",&a);
     int *myarr = malloc(a * (sizeof(int)));
+    for(int p =0;p<a;p++) {
+        scanf("%d",&myarr[p]);
+    }
     for(int i = 0;i<a-1;i++) {
         if(myarr[i] < myarr[i+1]) {
             f++;
