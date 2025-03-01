@@ -29,7 +29,7 @@ int main() {
     int count1 = 0;
     int index = 0;
     for(int i = 0;i<a;i++) {        
-        if(myarr2[i] == maxx){
+        if(myarr[i] == maxx){
             count1++;
             index = i;
         }
