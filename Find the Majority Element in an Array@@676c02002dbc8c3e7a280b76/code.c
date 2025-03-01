@@ -34,10 +34,11 @@ int main() {
             index = i;
         }
     }
-    if(count1 == maxx) {
-        printf("%d",myarr[index]);
-    } else {
-        printf("-1");
-    }
+    // if(count1 == maxx) {
+    //     printf("%d",myarr[index]);
+    // } else {
+    //     printf("-1");
+    // }
+    printf("%d",mazx);
 
 }
