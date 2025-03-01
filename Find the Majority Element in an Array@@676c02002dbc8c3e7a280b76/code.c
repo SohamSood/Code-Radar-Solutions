@@ -39,6 +39,6 @@ int main() {
     // } else {
     //     printf("-1");
     // }
-    printf("%d",mazx);
+    printf("%d",maxx);
 
 }
