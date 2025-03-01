@@ -14,6 +14,7 @@ int main() {
             f++;
         } 
     }
+    printf("%d",e);
     if(f == 0) {
         printf("Sorted");
 
