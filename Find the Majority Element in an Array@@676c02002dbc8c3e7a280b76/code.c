@@ -39,7 +39,7 @@ int main() {
     // } else {
     //     printf("-1");
     // }
-    printf("%d %d",maxx,count1);
+    printf("%d %d \n",maxx,count1);
     for(int j = 0;j<a;j++) {
         printf("%d ",myarr2[j]);
     }
