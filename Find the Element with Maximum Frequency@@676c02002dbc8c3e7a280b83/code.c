@@ -19,10 +19,10 @@ int main() {
             }
         }
         if(count>count1) {
-            no = a[i];
+            no = myarr[i];
         } else if( count == count1) {
             if(a[i]<no) [
-                no = a[i];
+                no = myarr[i];
             ]
         }
     }
