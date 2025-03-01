@@ -27,7 +27,7 @@ int main() {
                 e++;
             }
         }
-        printf("%d %d",e,myarr[i]);
+        printf("%d %d ",e,myarr[i]);
         // if(e == 0) {
         //     printf("%d ",myarr[i]);
         // }
