@@ -10,11 +10,11 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     for(int i = 0;i<a-1;i++) {
-        if(myarr[i] < myarr[i+1]) {
+        if(myarr[i] <= myarr[i+1]) {
             f++;
         } 
     }
-    printf("%d",f);
+    // printf("%d",f);
     if(f != 0) {
         printf("Sorted");
 
