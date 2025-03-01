@@ -13,7 +13,6 @@ int main() {
             f = f+1;
         }
     }
-    printf("%d \n",e);
     if(f == 0) {
         printf("Sorted");
 
