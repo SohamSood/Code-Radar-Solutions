@@ -22,7 +22,7 @@ int main() {
     for(int i = 0;i<a;i++) {        
         for(int j = 0;j<a;j++) {
             if(myarr2[i]<myarr2[j]) {
-                maxx= myarr[j];
+                maxx= myarr2[j];
             }
         }
     }
