@@ -34,7 +34,7 @@ int main() {
             index = i;
         }
     }
-    if((count1 == maxx)&&(count1 > h) {
+    if((count1 == maxx)&&(count1 > h)) {
         printf("%d",myarr[index]);
     } else {
         printf("-1");
