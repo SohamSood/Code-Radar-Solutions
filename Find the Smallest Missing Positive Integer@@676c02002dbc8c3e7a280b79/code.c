@@ -9,7 +9,7 @@ int main() {
     }
     int min=myarr[0];
     for(int i =0;i<a;i++) {
-        if(min<myarr[i]) {
+        if(min>myarr[i]) {
             min = myarr[i];
         }
     }
