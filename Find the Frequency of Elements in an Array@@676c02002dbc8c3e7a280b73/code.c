@@ -20,14 +20,14 @@ int main() {
                 }
             }
         }
-        if(e == 0) {
-            for(int j = 0;j<a;j++) {
-                if(b == myarr[j]) {
-                    count++;
-                }
+        
+        for(int j = 0;j<a;j++) {
+            if(b == myarr[j]) {
+                count++;
             }
-            printf("%d %d \n",b,count);
         }
+        printf("%d %d \n",b,count);
+        
     }
     
 }
