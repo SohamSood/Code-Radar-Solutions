@@ -21,9 +21,9 @@ int main() {
         if(count>count1) {
             no = myarr[i];
         } else if( count == count1) {
-            if(myarr[i]<no) [
+            if(myarr[i]<no) {
                 no = myarr[i];
-            ]
+            }
         }
     }
     printf("%d",no);
