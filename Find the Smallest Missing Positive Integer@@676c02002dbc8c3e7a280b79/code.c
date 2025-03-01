@@ -19,12 +19,11 @@ int main() {
             max = myarr[i];
         }
     }
-    // printf("%d %d",max,min);
     for(int i = min;i<=max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
             if(myarr[j] == i) {
-                // printf("%d",i);
+                printf("%d",i);
                 e++;
             }
         }
@@ -33,6 +32,7 @@ int main() {
 
         } else {
             int r=0;
+            printf("%d ",e);
         }
     }
 }
