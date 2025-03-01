@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
+#include <stdlib.h>
 int main() {
-    printf("%s", welcome());
-    return 0;
+    int a;
+    scanf("%d",&a);
+    int *myarr = malloc(a*4);
+    for(int p = 0;p<a;p++) {
+        scanf("%d",&myarr[p]);
+    }
 }
