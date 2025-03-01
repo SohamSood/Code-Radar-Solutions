@@ -7,7 +7,7 @@ int main() {
     for(int p = 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    int min=a[0];
+    int min=myarr[0];
     for(int i =0;i<a;i++) {
         if(min<myarr[i]) {
             min = myarr[i];
