@@ -14,8 +14,10 @@ int main() {
             f++;
         } 
     }
-    // printf("%d",f);
-    if(f != 0) {
+    if(a == 1) {
+        printf("Not Sorted")
+    }
+    else if(f != 0) {
         printf("Sorted");
 
     } else {
