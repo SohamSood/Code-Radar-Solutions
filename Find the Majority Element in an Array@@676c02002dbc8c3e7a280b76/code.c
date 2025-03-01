@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int main() {
     int a;
-    int h = a/2;
     scanf("%d",&a);
+    int h = a/2;
     int *myarr = malloc(a*(sizeof(int)));
     int *myarr2 = malloc(a*(sizeof(int)));
     for(int p =0;p<a;p++) {
