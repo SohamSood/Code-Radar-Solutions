@@ -20,6 +20,7 @@ int main() {
         }
         if(count>count1) {
             no = myarr[i];
+            count1 = count;
         } else if( count == count1) {
             if(myarr[i]<no) {
                 no = myarr[i];
