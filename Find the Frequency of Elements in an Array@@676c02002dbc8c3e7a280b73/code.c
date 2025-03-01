@@ -12,15 +12,6 @@ int main() {
         int b = myarr[i];
         int count = 0;
         myarr2[i] = b;
-        int e = 0;
-        for(int i = 0;i<a;i++) {
-            for(int j = 0;j<a;j++) {
-                if((myarr[i] == myarr2[j]) && (i != j)) {
-                    e++;
-                }
-            }
-        }
-        
         for(int j = 0;j<a;j++) {
             if(b == myarr[j]) {
                 count++;
