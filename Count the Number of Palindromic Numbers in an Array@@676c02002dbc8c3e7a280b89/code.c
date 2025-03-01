@@ -16,7 +16,7 @@ int main() {
             f = (f*10) + d;
             c = c/10;
         }
-        if(f == a[i]) {
+        if(f == myarr[i]) {
             e++;
         }
     }
