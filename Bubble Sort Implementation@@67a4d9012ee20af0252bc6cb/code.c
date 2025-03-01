@@ -23,12 +23,12 @@ int bubbleSort(int *myarr,int a) {
             int r = 0;
 
         } else {
-            printf("%d ", myarr[i]);
+            return myarr[i];
         }
     }
 }  
 int printArray(int *myarr,int n) {
     for(int i = 0;i<n;i++) {
-        int a = 0;
+        printf("%d ",myarr[i]);
     }
 }
