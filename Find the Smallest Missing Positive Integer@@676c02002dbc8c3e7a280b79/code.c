@@ -19,7 +19,7 @@ int main() {
             max = myarr[i];
         }
     }
-    for(int i = min;i<max;i++) {
+    for(int i = min;i<=max;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
             if(myarr[j] == i) {
