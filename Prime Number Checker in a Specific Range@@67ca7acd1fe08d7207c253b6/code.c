@@ -15,6 +15,6 @@ int printPrimesInRange(int a,int b) {
         }
         if(e == 0) {
             printf("%d ",i);
-            }
+        }
     }
 }
