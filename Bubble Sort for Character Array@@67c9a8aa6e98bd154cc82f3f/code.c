@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(int *myarr,int a) {
+int selectionSort(char *myarr,int a) {
     for(int i =0;i<a;i++) {
         for(int j =0;j<a;j++) {
             if(myarr[i] < myarr[j]) {
@@ -10,8 +10,8 @@ int selectionSort(int *myarr,int a) {
         }
     }
 }
-int printArray(int *myarr,int a) {
+int printArray(char *myarr,int a) {
     for(int i =0;i<a;i++) {
-        printf("%d ",myarr[i]);
+        printf("%c ",myarr[i]);
     }
 }
