@@ -1,5 +1,6 @@
 // Your code here...
 int printPrimesInRange(int a,int b) {
+    int j = 0;
     for(int i = a;i<=b;i++) {
         int e =0;
         if( i == 2 ) {
@@ -11,6 +12,10 @@ int printPrimesInRange(int a,int b) {
                 e++;
             }    
         }
-        printf("%d %d \n",e,i);
+        if(e == 0) {
+            printf("%d ",i);
+        }
+        j = j+e;
     }
+    // if()
 }
