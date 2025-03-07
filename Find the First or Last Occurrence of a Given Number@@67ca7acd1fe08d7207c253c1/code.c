@@ -1,4 +1,4 @@
-int findOccurence(int *myarr,int n,int target,char mode) {
+int findOccurrence(int *myarr,int n,int target,char mode) {
     int e =0;
     if(mode == 'L') {
         for(int i = 0;i<n;i++) {
