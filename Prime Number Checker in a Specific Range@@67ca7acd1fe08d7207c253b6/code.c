@@ -11,9 +11,10 @@ int printPrimesInRange(int a,int b) {
             if(i%j == 0) {
                 e++;
             }
-            if(e == 0) {
+            
+        }
+        if(e == 0) {
                 printf("%d ",i);
             }
-        }
     }
 }
