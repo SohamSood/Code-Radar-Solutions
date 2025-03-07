@@ -17,6 +17,6 @@ int findOccurrence(int *myarr,int n,int target,char mode) {
         }
     }
     if(e == 0) {
-        printf("-1");
+        return -1;
     }
 }
