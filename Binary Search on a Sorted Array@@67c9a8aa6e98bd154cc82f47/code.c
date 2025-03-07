@@ -7,4 +7,7 @@ int binarySearch(int *myarr,int n,int target) {
             e++;
         }
     }
+    if( e == 0) {
+        return -1;
+    }
 } 
