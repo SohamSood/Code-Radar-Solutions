@@ -8,5 +8,5 @@ int kthSmallest(int *myarr,int n,int k) {
             }
         }
     }
-    return myarr[k];
+    return myarr[k-1];
 }
