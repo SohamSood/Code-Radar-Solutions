@@ -22,5 +22,5 @@ int printPrimesInRange(int a,int b) {
         }
         j = j+e;
     }
-    // if()
+    printf(" ,%d",j)
 }
