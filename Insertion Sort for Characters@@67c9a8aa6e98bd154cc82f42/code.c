@@ -12,6 +12,6 @@ int insertionSort(char *myarr,int a) {
 }
 int printArray(char *myarr;int a) {
     for(int i=0;i<a;i++) {
-        printf("%d ",myarr[i]);
+        printf(myarr[i]);
     }
 }
