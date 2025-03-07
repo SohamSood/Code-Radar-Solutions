@@ -9,8 +9,8 @@ int kthSmallest(int *myarr,int n,int k) {
         }
     }
     if(n>k) {
-        printf("-1");
+        return -1;
     } else {
-        myarr[k-1];
+        return myarr[k-1];
     }
 }
