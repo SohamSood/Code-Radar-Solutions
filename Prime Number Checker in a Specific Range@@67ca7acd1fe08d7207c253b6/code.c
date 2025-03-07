@@ -3,7 +3,10 @@ int printPrimesInRange(int a,int b) {
     int j = 0;
     for(int i = a;i<=b;i++) {
         int e =0;
-        if( i == 2 ) {
+        if(e == 0|| e== 1) {
+            e++;
+        }
+        else if( i == 2 ) {
             printf("2 ");
             e++;
         } 
