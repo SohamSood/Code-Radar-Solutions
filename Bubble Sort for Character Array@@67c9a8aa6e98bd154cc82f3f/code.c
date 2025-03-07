@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(char *myarr,int a) {
+int bubbleSort(char *myarr,int a) {
     for(int i =0;i<a;i++) {
         for(int j =0;j<a;j++) {
             if(myarr[i] < myarr[j]) {
