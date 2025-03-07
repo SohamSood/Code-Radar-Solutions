@@ -1,29 +1,11 @@
 int bubbleSort(int *myarr,int a) {
-    
-    int min=myarr[0];
     for(int i =0;i<a;i++) {
-        if(min>myarr[i]) {
-            min = myarr[i];
-        }
-    }
-    int max=myarr[0];
-    for(int i =0;i<a;i++) {
-        if(max<myarr[i]) {
-            max = myarr[i];
-        }
-    }
-    for(int i = min;i<=max;i++) {
-        int e = 0;
-        for(int j = 0;j<a;j++) {
-            if(myarr[j] == i) {
-                e++;
+        for(int j=0;j<a;j++) {
+            if(a[i]<a[j]) {
+                int vari = a[j];
+                a[j] = a[i];
+                a[i] = vari;
             }
-        }
-        if(e == 0) {
-            int r = 0;
-
-        } else {
-            return myarr[i];
         }
     }
 }  
