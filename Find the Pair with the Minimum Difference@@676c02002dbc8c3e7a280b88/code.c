@@ -16,7 +16,7 @@ int main() {
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
             if(i!=j) {
-                c = myarr[i] - myarr[j];
+                int c = myarr[i] - myarr[j];
                 if(c<0) {
                     c = c*(-1);
                 }
