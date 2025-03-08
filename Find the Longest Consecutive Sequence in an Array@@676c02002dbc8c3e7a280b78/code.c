@@ -18,5 +18,5 @@ int main() {
             streak = count;
         }
     }
-    printf("%d",count);
+    printf("%d",streak);
 }
