@@ -18,12 +18,12 @@ int main() {
             }
         myarr2[i] = e;
     }      
-    for(int i=0;i<a;i++) {
-        printf("%d ",myarr2[i]);
-    }
+    // for(int i=0;i<a;i++) {
+    //     printf("%d ",myarr2[i]);
+    // }
     int maxx= myarr2[0];
     for(int i = 0;i<a;i++) {
-        if(myarr2[i]> maxx) {
+        if(myarr2[i] > maxx) {
             maxx = myarr2[i];
         }
     }
