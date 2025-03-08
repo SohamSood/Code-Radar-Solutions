@@ -26,6 +26,7 @@ int main() {
                     last = i;
                     first = j;
                 }
+                printf("%d",c);
             }
         }
     }
