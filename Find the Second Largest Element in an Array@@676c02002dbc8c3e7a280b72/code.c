@@ -24,7 +24,7 @@ int main() {
             }
         } 
     }
-    if(min == 0) {
+    if((min == 0)|| (min == -900)) {
         printf("-1");
     } else {
     printf("%d",min);
