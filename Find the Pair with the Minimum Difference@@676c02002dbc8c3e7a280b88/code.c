@@ -21,7 +21,7 @@ int main() {
                 if(c<0) {
                     c = c*(-1);
                 }
-                if(c > diff) {
+                if(c < diff) {
                     diff = c;
                     last = i;
                     first = j;
