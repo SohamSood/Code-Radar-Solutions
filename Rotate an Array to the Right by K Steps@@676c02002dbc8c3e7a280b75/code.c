@@ -19,5 +19,6 @@ int main() {
     for(int j = 0;j<c;j++) {
         rotate(myarr,a);
     }
-    printf("%d ",myarr[0]);
-}
+    for(int i =0;i<a;i++) {
+        printf("%d ",myarr[i])
+    }
