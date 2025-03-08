@@ -23,12 +23,12 @@ int main() {
                 }
                 if(c < diff) {
                     diff = c;
-                    last = i;
-                    first = j;
+                    last = myarr[i];
+                    first = myarr[j];
                 }
                 printf("%d ",c);
             }
         }
     }
-    printf("    %d %d",last,first);
+    printf("%d %d",last,first);
 }
