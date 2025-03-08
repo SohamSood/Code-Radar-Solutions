@@ -16,17 +16,17 @@ int main() {
             maxx = myarr[i];
         }
     }
-    int max2 = INT_MAX;
+    int min = INT_MAX;
     for(int j = 0;j<a;j++) {
         if(myarr[j] != maxx) {
-            if (myarr[j]>max2) {
-                max2 = myarr[j];
+            if (myarr[j]>min) {
+                min = myarr[j];
             }
         } 
     }
-    if(max2 == 0) {
+    if(min == 0) {
         printf("-1");
     } else {
-    printf("%d",max2);
+    printf("%d",min);
     }
 }
