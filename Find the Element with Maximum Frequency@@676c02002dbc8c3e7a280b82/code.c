@@ -9,18 +9,57 @@ int main() {
     for(int p= 0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
-    for(int i=0;i<a;i++) {
+    int count = 0;
+    int no;
+    int f = 0;
+    for(int i = 0;i<a;i++) {
         int e = 0;
-        for(int j =0 ;j<a;j++) {
-            if(myarr[i]==myarr[j]) {
+        for(int j = 0;j<a;j++) {
+            if(myarr[i] == myarr[j]) {
                 e++;
-                }
             }
-        myarr2[i] = e;
-    }      
-    for(int i=0;i<a;i++) {
-        printf("%d ",myarr2[i]);
+        }
+        if(e>count) {
+            count = e;
+            no = myarr[i];
+        } else if(e == count) {
+            if(no != myarr[i]) {
+                f++;
+            }
+        }
     }
+    if ((f == 0)&&(count != 0)) {
+        printf("%d",no);
+    } else {
+        printf("-1");
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // for(int i=0;i<a;i++) {
+    //     int e = 0;
+    //     for(int j =0 ;j<a;j++) {
+    //         if(myarr[i]==myarr[j]) {
+    //             e++;
+    //             }
+    //         }
+    //     myarr2[i] = e;
+    // }      
+    // for(int i=0;i<a;i++) {
+    //     printf("%d ",myarr2[i]);
+    // }
     // int maxx= myarr2[0];
     // int final = myarr[0];
     // for(int i = 0;i<a;i++) {
@@ -34,4 +73,4 @@ int main() {
     //     }
     // }
     // printf("%d",final);
-}
+} 
