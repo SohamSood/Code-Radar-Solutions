@@ -23,6 +23,6 @@ int main() {
     }
     int c;
     scanf("%d",&c);
-    --c;
+    c;
     rotate(myarr,a,c);
 }
