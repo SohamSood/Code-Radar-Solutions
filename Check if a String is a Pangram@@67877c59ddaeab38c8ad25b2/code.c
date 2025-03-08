@@ -13,6 +13,20 @@ int main()  {
         if((a[i] >= 65) && (a[i] <= 90)) {
             a[i] = tolower(a[i]);
         }
-
     }
+    int f= 0;
+    for(int j = 0;j<26;j++) {
+        int e=0;
+        for(int i = 0;i<strlen(a);i++) {
+            if(alpha[j] == a[i]) {
+                e++;
+            }
+        }
+        if( e == 0) {
+            f++;
+        }
+    }
+    if(f == 0 ){
+        printf("No");
+    } else {printf("No")}
 }
