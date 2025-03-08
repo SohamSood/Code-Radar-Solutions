@@ -27,5 +27,5 @@ int main() {
             maxx = myarr2[i];
         }
     }
-    printf("%d",maxx);
+    printf("%d",myarr2[maxx]);
 }
