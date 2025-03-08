@@ -6,10 +6,13 @@
 int main()  {
     char a[100];
     fgets(a,sizeof(a),stdin);
+    char alpha[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                     'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+
     for(int i =0;i<strlen(a);i++) {
         if((a[i] >= 65) && (a[i] <= 90)) {
             a[i] = tolower(a[i]);
         }
-        
+
     }
 }
