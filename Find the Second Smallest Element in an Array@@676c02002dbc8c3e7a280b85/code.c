@@ -10,20 +10,20 @@ int main()  {
     }
     int b = myarr[0];
     for(int i = 0;i<a;i++) {
-        if(myarr[i]>b) {
+        if(myarr[i]<b) {
             b = myarr[i];
         }
     }
     int maxx = myarr[0];
     for(int i = 0;i<a;i++) {
-        if(myarr[i]<maxx) {
+        if(myarr[i]>maxx) {
             maxx = myarr[i];
         }
     }
     int min2 = maxx;
     for(int i =0;i<a;i++) {
         if(myarr[i] != b) {
-            if(myarr[i]<min2) {
+            if(myarr[i]>min2) {
                 min2 = myarr[i];
             } 
         }
