@@ -12,7 +12,7 @@ int main() {
         scanf("%d",&myarr[l]);
     }
     int diff = 0;
-    int last,forst;
+    int last,first;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
             if(i!=j) {
