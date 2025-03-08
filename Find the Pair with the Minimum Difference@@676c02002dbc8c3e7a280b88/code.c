@@ -26,7 +26,7 @@ int main() {
                     last = myarr[i];
                     first = myarr[j];
                 }
-                printf("%d ",c);
+                
             }
         }
     }
