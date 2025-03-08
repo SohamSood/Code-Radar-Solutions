@@ -27,7 +27,7 @@ int main() {
         if((myarr[i+1]-myarr[i])<diff) {
             diff = myarr[i+1]-myarr[i];
             first = myarr[i];
-            last = myarr[j];
+            last = myarr[i+1];
         }
     }
     printf("%d %d",first,last);
