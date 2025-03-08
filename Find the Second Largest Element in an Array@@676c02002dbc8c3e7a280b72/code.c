@@ -16,7 +16,12 @@ int main() {
             maxx = myarr[i];
         }
     }
-    int min = -900;
+    int min = maxx;
+    for(int i =0;i<a;i++) {
+        if(myarr[i]<min) {
+            min = myarr[i];
+        }
+    }
     for(int j = 0;j<a;j++) {
         if(myarr[j] != maxx) {
             if (myarr[j]>min) {
@@ -24,7 +29,7 @@ int main() {
             }
         } 
     }
-    if((min == 0)|| (min == -900)) {
+    if((min == 0)|| (min == maxx)) {
         printf("-1");
     } else {
     printf("%d",min);
