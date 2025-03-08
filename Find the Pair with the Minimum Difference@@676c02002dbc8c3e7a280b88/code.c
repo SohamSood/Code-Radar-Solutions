@@ -30,5 +30,5 @@ int main() {
             }
         }
     }
-    printf("%d %d",last,first);
+    printf("    %d %d",last,first);
 }
