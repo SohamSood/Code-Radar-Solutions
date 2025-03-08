@@ -23,7 +23,7 @@ int main()  {
     int min2 = maxx;
     for(int i =0;i<a;i++) {
         if(myarr[i] != b) {
-            if(myarr[i]>min2) {
+            if(myarr[i]<min2) {
                 min2 = myarr[i];
             } 
         }
