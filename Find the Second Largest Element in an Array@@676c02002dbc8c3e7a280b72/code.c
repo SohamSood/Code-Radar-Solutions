@@ -16,7 +16,7 @@ int main() {
             maxx = myarr[i];
         }
     }
-    int min = INT_MAX;
+    int min = -900;
     for(int j = 0;j<a;j++) {
         if(myarr[j] != maxx) {
             if (myarr[j]>min) {
