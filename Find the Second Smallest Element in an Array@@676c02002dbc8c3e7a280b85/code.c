@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>3
+#include <stdlib.h>
 
 int main()  {
     int a;
@@ -22,7 +22,7 @@ int main()  {
     }
     int min2 = maxx;
     for(int i =0;i<a;i++) {
-        if(myarr[i] != min) {
+        if(myarr[i] != b) {
             if(myarr[i]>min2) {
                 min2 = myarr[i];
             } 
