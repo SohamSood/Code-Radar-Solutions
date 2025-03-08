@@ -11,24 +11,16 @@ int main() {
     for (int l = 0;l<a;l++) {
         scanf("%d",&myarr[l]);
     }
-    int diff = 100000;
-    int last = 0;
-    int first = 0;
     for(int i = 0;i<a;i++) {
-        for(int j = 0;j<a;j++) {
-            if(i!=j) {
-                int c = myarr[i] - myarr[j];
-                if(c<0) {
-                    c = c*(-1);
-                }
-                if(c < diff) {
-                    diff = c;
-                    last = myarr[i];
-                    first = myarr[j];
-                }
-                
+        for(int j =0;j<a;j++) {
+            if(myarr[i]>myarr[j]) {
+                int temp = myarr[i];
+                myarr[i] = myarr[j];
+                myarr[j] = temp;
             }
         }
     }
-    printf("%d %d",last,first);
+    for(int i =0;i<a;i++) {
+        printf("%d ",myarr[i]);
+    }
 }
