@@ -16,8 +16,8 @@ int main() {
                 e++;
                 }
             }
-        }
-        myarr2[i] = e;      
+        myarr2[i] = e;
+        }      
     }
     int maxx = 0;
     for(int i =0;i<a;i++) {
