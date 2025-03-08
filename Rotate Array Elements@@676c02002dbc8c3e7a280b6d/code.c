@@ -6,12 +6,11 @@ int rotate(int *myarr,int a) {
     myarr2[0] = myarr[a-1];
     myarr2[a-1] = myarr[a-2];
     for(int i = 1;i<a-1;i++) {
-        myarr2[i] = myarr[i+1];
+        myarr2[i] = myarr[i-1];
     }
     for(int i = 0;i<a;i++) {
         myarr[i] = myarr2[i];
     }
-
 }
 
 int main() {
