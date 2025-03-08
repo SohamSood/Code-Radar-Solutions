@@ -28,10 +28,10 @@ int main() {
             }
         }
     }
-    if ((f == 0)&&(count != 0)) {
+    if ((f == 0)) {
         printf("%d",no);
     } else {
-        printf("-1");
+        printf("%d",no);
     }
  
 
