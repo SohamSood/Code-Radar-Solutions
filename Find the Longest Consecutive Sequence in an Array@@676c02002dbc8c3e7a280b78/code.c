@@ -13,7 +13,9 @@ int main() {
         int count = 0;
         if(myarr[i]>myarr[i+1]) {
             count++;
-        } 
+        } else {
+            break;
+        }
         if(count>streak) {
             streak = count;
         }
