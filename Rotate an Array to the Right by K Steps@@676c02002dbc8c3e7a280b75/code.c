@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int rotate (int *myarr,int a) {
-    int temp = myarr[a-1];
-    for(int i = 1;i<a-1;i++) {
-        myarr[i] = myarr[i+1];
+int rotate (int *myarr,int a,int k) {
+    int *myarr2 = malloc(a*4);
+    for(int i = 0;i<k;i++) {
+        for(int i = 0;i<a-1;i++) {
+            myarr2[i] = myarr[i-1];
+        }
+        myarr2[0] = myarr[a-1];
+        myarr2[a-1] = myarr[a-2];
     }
-    myarr[0] = temp;
     for(int i =0;i<a;i++) {
-        printf("%d ",myarr[i]);
+        printf("%d ",myarr2[i]);
     }
 }
 int main() {
@@ -20,11 +23,5 @@ int main() {
     }
     int c;
     scanf("%d",&c);
-    for(int j = 0;j<c;j++) {
-        rotate(myarr,a);
-        printf("/n");
-    }
-    // for(int i =0;i<a;i++) {
-    //     printf("%d ",myarr[i]);
-    // }
+    rotate(myarr,a,c);
 }
