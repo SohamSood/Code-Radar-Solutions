@@ -5,7 +5,6 @@ int main() {
 
     scanf("%d",&a);
     int *myarr = malloc(a*(sizeof(int)));
-    int *myarr[100];
     for(int p=0;p<a;p++) {
         scanf("%d",&myarr[p]);
     }
