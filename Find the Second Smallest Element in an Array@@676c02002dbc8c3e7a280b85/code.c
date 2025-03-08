@@ -29,7 +29,7 @@ int main()  {
         }
     }
     if(a == 2) {
-        printf("%d",b);
+        printf("%d",maxx);
     }
     else if(min2 == maxx) {
         printf("-1");
