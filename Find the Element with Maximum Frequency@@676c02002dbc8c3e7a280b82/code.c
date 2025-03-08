@@ -21,6 +21,10 @@ int main() {
     for(int i=0;i<a;i++) {
         printf("%d ",myarr2[i]);
     }
-
-
+    int maxx= 0;
+    for(int i = 0;i<a;i++) {
+        if(myarr2[i]> maxx) {
+            maxx = myarr2[i];
+        }
+    }
 }
