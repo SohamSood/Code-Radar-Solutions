@@ -27,7 +27,7 @@ int main() {
         if(myarr2[i] > maxx) {
             maxx = myarr2[i];
         } else if(myarr2[i] == maxx) {
-            if(myarr[i] >= myarr[maxx]) {
+            if(myarr[i] <= myarr[maxx]) {
                 final = myarr[i];
             }
         }
