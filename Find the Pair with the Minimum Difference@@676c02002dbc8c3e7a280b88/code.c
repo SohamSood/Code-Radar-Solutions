@@ -11,7 +11,7 @@ int main() {
     for (int l = 0;l<a;l++) {
         scanf("%d",&myarr[l]);
     }
-    int diff = 0;
+    int diff = 100000;
     int last = 0;
     int first = 0;
     for(int i = 0;i<a;i++) {
