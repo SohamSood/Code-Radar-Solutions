@@ -7,7 +7,9 @@ int rotate (int *myarr,int a) {
         myarr[i] = myarr[i+1];
     }
     myarr[0] = temp;
-    printf("O \n");
+    for(int i =0;i<a;i++) {
+        printf("%d ",myarr[i]);
+    }
 }
 int main() {
     int a;
@@ -21,7 +23,7 @@ int main() {
     for(int j = 0;j<c;j++) {
         rotate(myarr,a);
     }
-    for(int i =0;i<a;i++) {
-        printf("%d ",myarr[i]);
-    }
+    // for(int i =0;i<a;i++) {
+    //     printf("%d ",myarr[i]);
+    // }
 }
