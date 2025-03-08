@@ -32,5 +32,5 @@ int main() {
             }
         }
     }
-    printf("%d",myarr2[maxx]);
+    printf("%d",final);
 }
