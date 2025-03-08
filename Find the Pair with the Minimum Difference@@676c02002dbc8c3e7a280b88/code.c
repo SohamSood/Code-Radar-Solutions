@@ -20,7 +20,15 @@ int main() {
             }
         }
     }
-    for(int i =0;i<a;i++) {
-        printf("%d ",myarr[i]);
+    int diff = INT_MAX;
+    int first = 0;
+    int last = 0;
+    for(int i =0;i<a-1;i++) {
+        if((myarr[i+1]-myarr[i])<diff) {
+            diff = myarr[i+1]-myarr[i];
+            first = myarr[i];
+            last = myarr[j];
+        }
     }
+    printf("%d %d",first,last);
 }
