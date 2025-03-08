@@ -10,6 +10,7 @@ int rotate (int *myarr,int a) {
 }
 int main() {
     int a;
+    scanf("%d",&a);
     int *myarr = malloc(a*4);
     for(int i = 0;i<a;i++) {
         scanf("%d",&myarr[i]);
