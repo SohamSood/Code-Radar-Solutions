@@ -22,6 +22,7 @@ int main() {
     scanf("%d",&c);
     for(int j = 0;j<c;j++) {
         rotate(myarr,a);
+        printf("/n");
     }
     // for(int i =0;i<a;i++) {
     //     printf("%d ",myarr[i]);
