@@ -26,4 +26,7 @@ int main() {
     for(int i = 0;i<c;i++) {
         rotate(myarr,a);
     }
+    for(int i =0;i<a;i++) {
+        printf("%d \n",myarr[i]);
+    }
 }
