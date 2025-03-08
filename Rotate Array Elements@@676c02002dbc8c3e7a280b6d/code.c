@@ -15,7 +15,7 @@ int main() {
     for(int i = 1;i<a-2;i++) {
         myarr2[i] = myarr[i+1];
     }
-    for(int i = 0;i<a;i++) {
+    for(int i = 1;i<a;i++) {
         printf("%d \n",myarr2[i]);
     }
 
