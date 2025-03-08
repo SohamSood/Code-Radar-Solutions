@@ -23,7 +23,7 @@ int main() {
     for(int i = 0;i<a;i++) {
         for(int j = i+1;j<a;j++) {
             if(myarr[i] +myarr [j] == b) {
-                printf("%d %d",i,j);
+                printf("%d %d",myarr[i],myarr[j]);
                 printf("\n");
             }
         }
