@@ -8,8 +8,8 @@ int rotate(int *myarr,int a) {
     for(int i = 1;i<a-1;i++) {
         myarr2[i] = myarr[i+1];
     }
-    for(int i = 1;i<a;i++) {
-        myarr[i] = myarr2[i]
+    for(int i = 0;i<a;i++) {
+        myarr[i] = myarr2[i];
     }
 
 }
