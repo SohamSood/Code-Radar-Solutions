@@ -28,7 +28,7 @@ int main()  {
             } 
         }
     }
-    printf("%d",b);
+    printf("%d",min2);
     // if(min2 == maxx) {
     //     printf("-1");
     // } else {
