@@ -12,15 +12,15 @@ int main() {
     for(int i=0;i<a;i++) {
         int e = 0;
         for(int j =0 ;j<a;j++) {
-            if(i!=j) {
-                if(myarr[i]==myarr[j]) {
-                    e++;
+            if(myarr[i]==myarr[j]) {
+                e++;
                 }
             }
         }
         myarr2[i] = e;      
     }
-    for(int k =0;k<a;k++) {
-        printf("%d \n",myarr2[k]);
+    int maxx = 0;
+    for(int i =0;i<a;i++) {
+        if()
     }
 }
