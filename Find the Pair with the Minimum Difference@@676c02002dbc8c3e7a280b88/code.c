@@ -13,7 +13,7 @@ int main() {
     }
     for(int i = 0;i<a;i++) {
         for(int j =0;j<a;j++) {
-            if(myarr[i]>myarr[j]) {
+            if(myarr[i]<myarr[j]) {
                 int temp = myarr[i];
                 myarr[i] = myarr[j];
                 myarr[j] = temp;
