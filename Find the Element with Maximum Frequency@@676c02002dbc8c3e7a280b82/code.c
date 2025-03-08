@@ -11,7 +11,6 @@ int main() {
     }
     int count = 0;
     int no;
-    int f = 0;
     for(int i = 0;i<a;i++) {
         int e = 0;
         for(int j = 0;j<a;j++) {
@@ -23,8 +22,8 @@ int main() {
             count = e;
             no = myarr[i];
         } else if(e == count) {
-            if(no != myarr[i]) {
-                f++;
+            if(no > myarr[i]) {
+                no = myarr[i];
             }
         }
     }
