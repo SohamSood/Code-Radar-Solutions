@@ -1,20 +1,36 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>3
 
 int main()  {
     int a;
     scanf("%d",&a);
     int *myarr = malloc(a*4);
     for(int i =0;i<a;i++) {
-        for(int j = 0;j<a;j++) {
-            if(myarr[i]>myarr[j]) {
-                int temp = myarr[i];
-                myarr[i] = myarr[j];
-                myarr[j] = temp;
-            }
+        scanf("%d",&myarr[i]);
+    }
+    int b = myarr[0];
+    for(int i = 0;i<a;i++) {
+        if(myarr[i]>b) {
+            b = myarr[i];
         }
     }
-    for(int i =0;i<a;i++ ) {
-        printf("%d ",myarr[i]);
+    int maxx = myarr[0];
+    for(int i = 0;i<a;i++) {
+        if(myarr[i]<maxx) {
+            maxx = myarr[i];
+        }
+    }
+    int min2 = maxx;
+    for(int i =0;i<a;i++) {
+        if(myarr[i] != min) {
+            if(myarr[i]>min2) {
+                min2 = myarr[i];
+            } 
+        }
+    }
+    if(min2 == maxx) {
+        printf("-1");
+    } else {
+        printf("%d",min2)
     }
 }
