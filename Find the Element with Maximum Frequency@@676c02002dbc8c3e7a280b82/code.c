@@ -28,11 +28,7 @@ int main() {
             }
         }
     }
-    if ((f == 0)) {
-        printf("%d",no);
-    } else {
-        printf("%d",no);
-    }
+    printf("%d",no);
  
 
 
