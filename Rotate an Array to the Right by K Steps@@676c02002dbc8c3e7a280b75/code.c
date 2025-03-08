@@ -2,12 +2,8 @@
 #include <stdlib.h>
 
 int rotate (int *myarr,int a) {
-    int temp = myarr[a-1];
-    for(int i = 1;i<a;i++) {
-        myarr[i] = myarr[i+1];
-    }
-    myarr[0] = temp;
-}
+    // 
+    printf("hithere \n");
 int main() {
     int a;
     scanf("%d",&a);
