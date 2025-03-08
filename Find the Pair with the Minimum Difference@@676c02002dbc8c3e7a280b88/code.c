@@ -30,5 +30,9 @@ int main() {
             last = myarr[i+1];
         }
     }
-    printf("%d %d",first,last);
+    if(a == 1) {
+        printf("-1");
+    } else {
+        printf("%d %d",first,last);
+    }
 }
