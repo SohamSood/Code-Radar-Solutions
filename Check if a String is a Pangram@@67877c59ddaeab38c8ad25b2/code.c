@@ -28,5 +28,7 @@ int main()  {
     }
     if(f == 0 ){
         printf("No");
-    } else {printf("No")}
+    } else {
+        printf("Yes");
+    }
 }
