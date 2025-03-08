@@ -11,22 +11,22 @@ int main() {
     for (int l = 0;l<a;l++) {
         scanf("%d",&myarr[l]);
     }
-    int max = INT_MAX;
-    int index1 = 0;
-    int index2 = 0;
+    int diff = 0;
+    int last,forst;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
-            if(((abs(myarr[i]-myarr[j])<max)) && i!=j) {
-                max = (myarr[i]-myarr[j]);
-                index1 = myarr[i];
-                index2 = myarr[j];
+            if(i!=j) {
+                c = myarr[i] - myarr[j];
+                if(c<0) {
+                    c = c*(-1);
+                }
+                if(c < diff) {
+                    diff = c;
+                    last = i;
+                    first = j;
+                }
             }
         }
     }
-    if (a==1) {
-        printf("-1");
-    } else {
-    printf("%d %d",index1,index2);
-
-    }
+    printf("%d %d",last,first);
 }
