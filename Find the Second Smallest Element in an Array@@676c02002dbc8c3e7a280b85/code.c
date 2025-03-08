@@ -28,8 +28,10 @@ int main()  {
             } 
         }
     }
-    //printf("%d",min2);
-    if(min2 == maxx) {
+    if(a == 2) {
+        printf("%d",min);
+    }
+    else if(min2 == maxx) {
         printf("-1");
     } else {
         printf("%d",min2);
