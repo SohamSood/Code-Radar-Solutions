@@ -9,10 +9,8 @@ int main() {
     for(int i = 0;i<a;i++) {
         int e = 0;
         for(int j =i+1;j<a;j++) {
-            if(i!=j){
-                if(myarr[i] == myarr[j]) {
-                    e++;
-                }
+            if(myarr[i] == myarr[j]) {
+                e++;
             }
         }
         if((e == 0)&&(count == 0)) {
