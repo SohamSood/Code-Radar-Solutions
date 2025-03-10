@@ -14,7 +14,7 @@ int main() {
     for(int i = 0;i<a;i++) {
         scanf("%d %s %f",&students[i].no,students[i].name,&students[i].marks);
     }
-    int j =0;
+    float j =0;
     for(int i = 0;i<a;i++) {
         j = j+students[i].marks;
     }
