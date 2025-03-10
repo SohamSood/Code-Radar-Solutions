@@ -14,4 +14,7 @@ int main() {
         scanf(" %[^\n]", students[i].c);
         scanf("%f", &students[i].d);
     }
+    for(int i =0;i<a;i++) {
+        printf("Roll Number: %d, Name: %s,Marks: %f",b,c,d);
+    }
 }
