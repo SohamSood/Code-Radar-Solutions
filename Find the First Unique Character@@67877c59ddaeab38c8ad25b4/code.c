@@ -3,7 +3,7 @@
 int main() {
     int a = 100;
 
-    int *myarr[100];
+    char *myarr[100];
     scanf("%s",&myarr);
     int count = 0;
     for(int i = 0;i<a;i++) {
