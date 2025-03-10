@@ -1,4 +1,5 @@
-#include <stdio.h> // Your code here...
+#include <stdio.h> 
+#include <stdlib.h> // Your code here...
 struct student{
         int b;
         char c[100];
