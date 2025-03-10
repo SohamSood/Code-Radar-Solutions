@@ -9,15 +9,17 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     int streak = 0;
-    for(int i = 0;i<a-1;i++) {
+    for(int j=0;j<a;j++) {
         int count = 0;
-        if(myarr[i]>myarr[i+1]) {
-            count++;
-        } else {
-            break;
-        }
-        if(count>streak) {
-            streak = count;
+        for(int i = 0;i<a-1;i++) {
+            if(myarr[i]>myarr[i+1]) {
+                count++;
+            } else {
+                break;
+            }
+            if(count>streak) {
+                streak = count;
+            }
         }
     }
     printf("%d",streak);
