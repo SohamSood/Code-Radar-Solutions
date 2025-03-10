@@ -12,7 +12,7 @@ int main() {
     for(int j=0;j<a;j++) {
         int count = 0;
         for(int i = 0;i<a-1;i++) {
-            if(myarr[i]>myarr[i+1]) {
+            if(myarr[j]>myarr[i+1]) {
                 count++;
             } else {
                 break;
