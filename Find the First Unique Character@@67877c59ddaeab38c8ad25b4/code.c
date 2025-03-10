@@ -15,9 +15,9 @@ int main() {
         }
         printf("Rukja");
         printf(" %d %c \n",e,myarr[i]);
-        if((e == 0)&&(count == 0)) {
-            count++;
-            printf("%c",myarr[i]);
-        }
+        // if((e == 0)&&(count == 0)) {
+        //     count++;
+        //     printf("%c",myarr[i]);
+        // }
     }
 }
