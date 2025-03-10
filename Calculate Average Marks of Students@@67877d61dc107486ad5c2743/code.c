@@ -20,3 +20,4 @@ int main() {
     }
     j = j/a;
     printf("Average Marks: %.2f",j);
+}
