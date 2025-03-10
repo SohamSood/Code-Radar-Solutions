@@ -5,7 +5,7 @@ struct student {
     int a;
     char name[100];
     float b;
-}
+};
 int main() {
     int c;
     scanf("%d",&c);
