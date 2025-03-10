@@ -9,5 +9,5 @@ struct student {
 int main() {
     int c;
     scanf("%d",&c);
-    struct student *students = (struct student *)malloc(c* sizeof(student));
+    struct student *students = (struct student *)malloc(c* sizeof(struct student));
 }
