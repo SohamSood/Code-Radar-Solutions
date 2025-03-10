@@ -14,12 +14,12 @@ int main() {
         scanf("%d %s %f",&students[i].a,students[i].name,&students[i].b);
     }
     int p = 0;
-    int r = students[0].a;
+    int r = students[0].b;
     for(int i =0;i<c;i++) {
-        if(students[i].a>r) {
-            r = students[i].a;
+        if(students[i].b>r) {
+            r = students[i].b;
             p = i;
         }
     }
-    printf("%Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n",students[p].a,students[p].name,students[p].b);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n",students[p].a,students[p].name,students[p].b);
 }
