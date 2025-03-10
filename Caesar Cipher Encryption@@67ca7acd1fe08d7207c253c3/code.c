@@ -1,8 +1,7 @@
 // Your code here...
-int main() {
-    int a;
-    char str[100];
-    fgets(str, sizeof(str), stdin);
-    scanf("%d",&a);
-    printf("%d",&a);
+int caeserCipher(char *myarr,int shift,char *encrypted) {
+    for(int i = 0;i<100;i++) {
+        char d = (myarr[i]) + shift;
+        encrypted = d;
+    }
 }
