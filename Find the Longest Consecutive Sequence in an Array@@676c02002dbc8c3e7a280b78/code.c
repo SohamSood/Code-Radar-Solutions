@@ -11,8 +11,8 @@ int main() {
     int streak = 0;
     for(int j=0;j<a;j++) {
         int count = 0;
-        for(int i = 0;i<a-1;i++) {
-            if(myarr[j]>myarr[i+1]) {
+        for(int i = j+1;i<a-1;i++) {
+            if(myarr[j]>myarr[i]) {
                 count++;
             } else {
                 break;
