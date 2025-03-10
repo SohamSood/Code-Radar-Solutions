@@ -14,10 +14,11 @@ int main() {
                     e++;
                 }
             }
-        }
-        if((e == 0)&&(count == 0)) {
+            if((e == 0)&&(count == 0)) {
             count++;
             printf("%c",myarr[i]);
         }
+        }
+        
     }
 }
