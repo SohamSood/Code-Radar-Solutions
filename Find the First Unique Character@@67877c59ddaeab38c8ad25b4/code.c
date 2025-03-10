@@ -1,7 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int a;
+    int a = 100;
+
     int *myarr[100];
     scanf("%s",&myarr);
     int count = 0;
