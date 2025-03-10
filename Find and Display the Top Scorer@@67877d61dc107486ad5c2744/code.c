@@ -16,7 +16,7 @@ int main() {
     int p = 0;
     int r = students[0].a;
     for(int i =0;i<c;i++) {
-        if(students[i]>r) {
+        if(students[i].a>r) {
             r = students[i].a;
             p = i;
         }
