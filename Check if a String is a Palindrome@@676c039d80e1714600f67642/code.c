@@ -7,5 +7,5 @@ int main() {
     for(int i = 0;i<100;i++) {
         scanf("%d",&myarr[i]);
     }
-    int myarr2[strlen(myarr)];
+    char myarr2[strlen(myarr)];
 }
