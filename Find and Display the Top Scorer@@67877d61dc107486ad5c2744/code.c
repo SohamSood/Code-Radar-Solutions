@@ -13,4 +13,13 @@ int main() {
     for(int i= 0;i<c;i++) {
         scanf("%d %s %f",&students[i].a,students[i].name,&students[i].b);
     }
+    int p = 0;
+    int r = students[0].a;
+    for(int i =0;i<c;i++) {
+        if(students[i]>r) {
+            r = students[i].a;
+            p = i;
+        }
+    }
+    printf("%Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n",students[i].a,students[i].name,students[i].b);
 }
