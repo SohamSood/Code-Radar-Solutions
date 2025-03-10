@@ -21,5 +21,5 @@ int main() {
             p = i;
         }
     }
-    printf("%Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n",students[i].a,students[i].name,students[i].b);
+    printf("%Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f \n",students[p].a,students[p].name,students[p].b);
 }
