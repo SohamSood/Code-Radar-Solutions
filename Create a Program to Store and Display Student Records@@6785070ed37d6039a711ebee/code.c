@@ -7,6 +7,7 @@ struct student{
 #int main() {
     int a;
     scanf("%d",&a);
-    
+    struct student *students = (struct student *)malloc(a * sizeof(struct student));
+
 
 }
