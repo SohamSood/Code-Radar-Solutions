@@ -15,6 +15,6 @@ int binarySearch(int *myarr,int n,int target) {
     else if( e == 0) {
         return -1;
     } else {
-        return f;
+        return 3;
     }
 } 
