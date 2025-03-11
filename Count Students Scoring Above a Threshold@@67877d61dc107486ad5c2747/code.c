@@ -22,5 +22,5 @@ int main() {
             count++;
         }
     }
-    printf("Count if students scoring above %.2f: %d",min,count);
+    printf("Count of students scoring above %.2f: %d",min,count);
 }
