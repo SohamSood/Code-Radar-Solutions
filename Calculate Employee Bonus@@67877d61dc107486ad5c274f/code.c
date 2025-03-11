@@ -18,9 +18,9 @@ int main() {
         float bonus;
         int b = students[i].marks;
         if(b<50000) {
-            bonus= (1/10)*b;
+            bonus= (0.1)*b;
         } else  {
-            bonus = (1/20)*b;
+            bonus = (0.05)*b;
         }
         printf("Employee ID: %d, Name: %s, Bonus: %.2f \n",students[i].rollno,students[i].name,bonus);
     }
