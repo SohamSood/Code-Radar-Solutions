@@ -21,15 +21,15 @@ int main() {
     int upremium = 0;
     for(int i = 0;i<a;i++) {
         if((strcmp(students[i].plan,"Basic")) == 0) {
-            basic = basic + student[i].marks;
+            basic = basic + students[i].marks;
             ubasic++;
         }
         else if((strcmp(students[i].plan, "Standard")) == 0) {
-            standard = standard + student[i].marks;
+            standard = standard + students[i].marks;
             ustandard++;
         }
         else if((strcmp(students[i].plan, "Premium")) == 0) {
-            premium = premium + student[i].marks;
+            premium = premium + students[i].marks;
             upremium++;
         }
     }
