@@ -19,7 +19,7 @@ int main() {
     for(int i = 0;i<d;i++) {
         if(students[i].a == e) {
             f == i;
-            printf("%d %d \n",students[i].a,e);
+            printf("Roll Number: %d,Name: %s, Marks: %.2f",students[f].a,students[f].b,students[f].c);
         }
         
     }
