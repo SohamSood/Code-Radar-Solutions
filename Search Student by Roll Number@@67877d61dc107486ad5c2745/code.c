@@ -20,6 +20,7 @@ int main() {
         if(students[i].a == e) {
             f == i;
         }
+        printf("%d %d \n",students[i].a,e);
     }
     if(f == -1) {
         printf("Student not found");
