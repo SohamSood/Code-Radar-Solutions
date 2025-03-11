@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    int myarr[100];
+    char myarr[100];
     // for(int i =0;i<100;i++) {
     //     scanf("%d",&myarr[i]);
     // }
