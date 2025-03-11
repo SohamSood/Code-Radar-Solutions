@@ -14,3 +14,9 @@ int main() {
     for(int i = 0;i<a;i++) {
         scanf("%s %f",students[i].name,&students[i].temp);
     }
+    float count=0;
+    for(int i = 0;i<a;i++) {
+        count = count + students[i].temp;
+    }
+    printf("Average Temprature: %.2f",count);
+}
