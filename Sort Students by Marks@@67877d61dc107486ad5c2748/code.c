@@ -21,7 +21,7 @@ int main() {
                 char swappn[100] = students[i].name;
                 float swappp = students[i].marks;
                 students[i].rollno = students[j].rollno;
-                students[i].name = students[i].name;
+                students[i].name = students[j].name;
                 students[i].marks = students[i].marks;
                 students[j].rollno = swapp;
                 students[j].name = swapp;
