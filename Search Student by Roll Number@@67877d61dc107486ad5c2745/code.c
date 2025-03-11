@@ -11,6 +11,6 @@ int main() {
     scanf("%d",&d);
     struct student *students = (struct student*)malloc(d*sizeof(struct student));
     for(int i = 0;i<d;i++) {
-        scanf("%d %s %f",&student[i].a,students[i].b,&students[i].c);
+        scanf("%d %s %f",&students[i].a,students[i].b,&students[i].c);
     }
 }
