@@ -18,13 +18,13 @@ int main() {
     float bike = 0;
     float truck = 0;
     for(int i = 0;i<a;i++) {
-        if(strcmp(students[i].name = "Car") == 0) {
+        if(strcmp(students[i].name == "Car") == 0) {
             car++;
         }
-        if(strcmp(students[i].name = "Bike") == 0) {
+        if(strcmp(students[i].name == "Bike") == 0) {
             bike++;
         }
-        if(strcmp(students[i].name = "Truck") == 0) {
+        if(strcmp(students[i].name == "Truck") == 0) {
             truck++;
         }
     }
