@@ -13,4 +13,10 @@ int main() {
     for(int i = 0;i<a;i++) {
         scanf("%d %s %f",&students[i].rollno,students[i].name,&students[i].marks);
     }
+    float count = 0;
+    for(int i = 0;i<a;i++) {
+        count = count+students[i].marks;
+    }
+    printf("%.2f",count);
+    printf("%.2f",count/3);
 }
