@@ -13,15 +13,16 @@ int main() {
     for(int i = 0;i<d;i++) {
         scanf("%d %s %f",&students[i].a,students[i].b,&students[i].c);
     }
-    int e = 0;
+    int e;
+    int f = 0;
     scanf("%d",&e);
     for(int i = 0;i<d;i++) {
         if(students[i].a == e) {
             printf("Roll Number: %d, Name: %s, Marks: %.2f",students[i].a,students[i].b,students[i].c);
-            e++;
+            f++;
         }
         
-    }if(e == 0) {
+    }if(f == 0) {
         printf("Student not found");
     }
 }
