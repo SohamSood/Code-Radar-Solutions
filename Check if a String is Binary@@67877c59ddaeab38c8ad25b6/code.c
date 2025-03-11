@@ -3,6 +3,9 @@
 #include <string.h>
 int main() {
     int myarr[100];
+    for(int i =0;i<a;i++) {
+        scanf("%d",&myarr[i]);
+    }
     int e = 0;
     for(int i = 0;i<100;i++) {
         if ((myarr[i] == 0) || (myarr[i] == 1)) {
