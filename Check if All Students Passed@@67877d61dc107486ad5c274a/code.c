@@ -21,8 +21,8 @@ int main() {
         }
     }
     if(e != 0) {
-        printf("Not All Passed")
-    } else {{
+        printf("Not All Passed");
+    } else {
         printf("All Passed");
-    }}
+    }
 }
