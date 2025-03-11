@@ -22,9 +22,9 @@ int main() {
         }
         printf("%d %d \n",students[i].a,e);
     }
-    if(f == -1) {
-        printf("Student not found");
-    } else {
-        printf("Roll Number: %d,Name: %s, Marks: %.2f",students[f].a,students[f].b,students[f].c);
-    }
+    // if(f == -1) {
+    //     printf("Student not found");
+    // } else {
+    //     printf("Roll Number: %d,Name: %s, Marks: %.2f",students[f].a,students[f].b,students[f].c);
+    // }
 }
