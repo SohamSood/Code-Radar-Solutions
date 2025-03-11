@@ -17,6 +17,6 @@ int main() {
     for(int i = 0;i<a;i++) {
         count = count+students[i].marks;
     }
-    printf("%.2f",count);
-    printf("%.2f",count/3);
+    printf("Total Marks: %.2f \n",count);
+    printf("Average Marks: %.2f",count/3);
 }
