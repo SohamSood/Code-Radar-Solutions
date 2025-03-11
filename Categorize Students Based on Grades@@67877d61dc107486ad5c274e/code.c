@@ -19,7 +19,7 @@ int main() {
         float b = students[i].marks;
         if(b>= 85) {
             grade = 'A';
-        } else if((b>=70) && (b<=84)) {
+        } else if((b>=70) && (b<85)) {
             grade = 'B';
         } else {
             grade = 'C';
