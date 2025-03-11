@@ -9,9 +9,7 @@ int main() {
     scanf("%s",&myarr);
     int e = 0;
     for(int i = 0;i<strlen(myarr);i++) {
-        if ((myarr[i] == 0) || (myarr[i] == 1)) {
-            int f = 0;
-        } else  {
+        if ((myarr[i] != 0)&&(myarr[i]!=1)) {
             e++;
         }
     }
