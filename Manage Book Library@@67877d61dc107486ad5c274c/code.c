@@ -18,7 +18,7 @@ int main() {
     scanf("%f",&b);
     for(int i = 0;i<a;i++) {
         if(students[i].marks > b) {
-            printf("Title: %s, Author: %s, Price: %.2f",students[i].rollno,students[i].name,students[i].marks);
+            printf("Title: %s, Author: %s, Price: %.2f \n",students[i].rollno,students[i].name,students[i].marks);
         }
     }
 }
