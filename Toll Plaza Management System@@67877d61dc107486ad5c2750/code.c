@@ -28,5 +28,5 @@ int main() {
             truck = truck+students[i].marks;
         }
     }
-    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",car,bike,truck);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",car,truck,bike);
 }
