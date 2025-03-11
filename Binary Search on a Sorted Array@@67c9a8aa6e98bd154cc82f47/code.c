@@ -10,7 +10,7 @@ int binarySearch(int *myarr,int n,int target) {
         }
     }
     if(e == n) {
-        return myarr[(i+1)/2];
+        return myarr[(n+1)/2];
     }
     else if( e == 0) {
         return -1;
