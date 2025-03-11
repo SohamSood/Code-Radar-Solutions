@@ -24,7 +24,7 @@ int main() {
                 students[i].name = students[j].name;
                 students[i].marks = students[i].marks;
                 students[j].rollno = swapp;
-                students[j].name = swapp;
+                students[j].name = swappn;
                 students[i].marks = swappp;
             }
         }
