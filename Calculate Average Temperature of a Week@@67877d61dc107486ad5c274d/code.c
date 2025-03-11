@@ -8,8 +8,8 @@ struct student {
     float temp;
 };
 int main() {
-    int a;
-    scanf("%d",&a);
+    int a = 7;
+    
     struct student *students = (struct student*)malloc(a*sizeof(struct student));
     for(int i = 0;i<a;i++) {
         scanf("%s %f",students[i].name,&students[i].temp);
