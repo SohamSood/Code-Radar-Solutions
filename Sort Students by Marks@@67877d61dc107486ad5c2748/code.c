@@ -18,7 +18,7 @@ int main() {
         for(int j = 0;j<a;j++) {
             if(students[i].marks > students[j].marks) {
                 int swapp = students[i].rollno;
-                char swappn[100] = students[i].name;
+                char *swappn[100] = students[i].name;
                 float swappp = students[i].marks;
                 students[i].rollno = students[j].rollno;
                 students[i].name = students[j].name;
