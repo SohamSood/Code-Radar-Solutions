@@ -1,5 +1,4 @@
-// Your code here...#include <stdio.h>
-#include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
 struct student {
     float side1;
