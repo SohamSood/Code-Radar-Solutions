@@ -22,5 +22,5 @@ int main() {
             count = i;
         }
     }
-    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",students[count].rollno,students[count].name,students[count],marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",students[count].rollno,students[count].name,students[count].marks);
 }
