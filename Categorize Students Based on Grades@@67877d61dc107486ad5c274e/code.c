@@ -15,7 +15,7 @@ int main() {
         scanf("%d %s %f",&students[i].rollno,students[i].name,&students[i].marks);
     }
     for(int i =0;i<a;i++) {
-        char grade = "A";
+        char grade = 'A';
         printf("Roll No: %d, Name: %s, Grade: %c",students[i].rollno,students[i].name,grade);
     }
 }
