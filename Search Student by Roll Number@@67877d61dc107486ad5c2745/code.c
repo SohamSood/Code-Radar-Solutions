@@ -19,8 +19,9 @@ int main() {
     for(int i = 0;i<d;i++) {
         if(students[i].a == e) {
             f == i;
+            printf("%d %d \n",students[i].a,e);
         }
-        printf("%d %d \n",students[i].a,e);
+        
     }
     // if(f == -1) {
     //     printf("Student not found");
