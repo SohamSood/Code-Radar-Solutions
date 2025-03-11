@@ -15,7 +15,15 @@ int main() {
         scanf("%d %s %f",&students[i].rollno,students[i].name,&students[i].marks);
     }
     for(int i =0;i<a;i++) {
-        char grade = 'A';
-        printf("Roll No: %d, Name: %s, Grade: %c \n",students[i].rollno,students[i].name,grade);
+        char grade;
+        float b = students[i].marks;
+        if(b>= 85) {
+            grade = 'A';
+        } else if((b>=70) && (b<=84)) {
+            grade = 'B';
+        } else {
+            grade = 'C';
+        }
+        printf("Roll Number: %d, Name: %s, Grade: %c \n",students[i].rollno,students[i].name,grade);
     }
 }
