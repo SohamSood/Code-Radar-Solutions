@@ -23,7 +23,7 @@ int main() {
                 students[i].rollno = students[j].rollno;
                 students[i].marks = students[j].marks;
                 students[j].rollno = swapp;
-                students[i].marks = swappp;
+                students[j].marks = swappp;
                 //notmine
                 char swappn[100];
                 strcpy(swappn, students[i].name);
