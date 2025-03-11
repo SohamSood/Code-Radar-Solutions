@@ -24,3 +24,5 @@ int main() {
         }
         printf("Employee ID: %d, Name: %s, Bonus: %.2f \n",students[i].rollno,students[i].name,bonus);
     }
+
+}
