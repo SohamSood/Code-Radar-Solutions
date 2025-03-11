@@ -21,10 +21,10 @@ int main() {
         if((strcmp(students[i].name, "Car")) == 0) {
             car = car+students[i].marks;
         }
-        if((strcmp(students[i].name, "Bike")) == 0) {
+        else if((strcmp(students[i].name, "Bike")) == 0) {
             bike = bike+students[i].marks;
         }
-        if((strcmp(students[i].name, "Truck")) == 0) {
+        slse if((strcmp(students[i].name, "Truck")) == 0) {
             truck = truck+students[i].marks;
         }
     }
