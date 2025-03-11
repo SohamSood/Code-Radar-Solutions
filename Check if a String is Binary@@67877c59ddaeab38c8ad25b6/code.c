@@ -6,7 +6,7 @@ int main() {
     int e = 0;
     for(int i = 0;i<100;i++) {
         if (myarr[i] == 0) || (myarr[i] == 1) {
-            int f = 0
+            int f = 0;
         } else  {
             e++;
         }
