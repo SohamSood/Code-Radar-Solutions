@@ -2,7 +2,7 @@
 int binarySearch(int *myarr,int n,int target) {
     int e =0;
     int f = 0;
-    for(int i =0;i<n;i++) {
+    for(int i =n-1;i>0;i--) {
         if ((target == myarr[i])) {
             f = i;
             e++;
