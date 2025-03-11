@@ -18,5 +18,5 @@ int main() {
     for(int i = 0;i<a;i++) {
         count = count + students[i].temp;
     }
-    printf("Average Temprature: %.2f",(count)/a);
+    printf("Average Temperature: %.2f",(count)/a);
 }
