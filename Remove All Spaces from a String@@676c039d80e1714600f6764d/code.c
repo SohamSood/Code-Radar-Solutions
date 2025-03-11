@@ -6,7 +6,7 @@ int main() {
     fgets(myarr,100,stdin);
     for(int i = 0;i<100;i++) {
         if(myarr[i] == ' ') {
-
+            int f = 0;
         } else {
             printf("%c",myarr[i]);
         }
