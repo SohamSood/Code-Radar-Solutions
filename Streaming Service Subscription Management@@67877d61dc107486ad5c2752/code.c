@@ -33,5 +33,5 @@ int main() {
             upremium++;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users,Revenue: %.2f",basic,ubasic,standard,ustandard,premium,upremium);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",basic,ubasic,standard,ustandard,premium,upremium);
 }
