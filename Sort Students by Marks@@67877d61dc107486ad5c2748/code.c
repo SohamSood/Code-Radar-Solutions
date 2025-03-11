@@ -22,7 +22,7 @@ int main() {
                 float swappp = students[i].marks;
                 students[i].rollno = students[j].rollno;
                 students[i].name = students[j].name;
-                students[i].marks = students[i].marks;
+                students[i].marks = students[j].marks;
                 students[j].rollno = swapp;
                 students[j].name = swappn;
                 students[i].marks = swappp;
