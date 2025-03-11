@@ -4,7 +4,7 @@
 int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
-    for(int i = 0;i<a;i++) {
+    for(int i = 0;i<100;i++) {
         if(myarr[i] == ' ') {
 
         } else {
