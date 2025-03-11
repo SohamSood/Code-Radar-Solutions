@@ -13,4 +13,17 @@ int main() {
     for(int i = 0;i<d;i++) {
         scanf("%d %s %f",&students[i].a,students[i].b,&students[i].c);
     }
+    int e ;
+    int f = -1;
+    scanf("%d",&e);
+    for(int i = 0;i<a;i++) {
+        if(students[i].a == e) {
+            f == students[i].a;
+        }
+    }
+    if(f == -1) {
+        printf("Student not found");
+    } else {
+        printf("%d",f);
+    }
 }
