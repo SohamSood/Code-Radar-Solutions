@@ -19,13 +19,13 @@ int main() {
     float truck = 0;
     for(int i = 0;i<a;i++) {
         if((strcmp(students[i].name, "Car")) == 0) {
-            car++;
+            car = car+students[i].marks;
         }
         if((strcmp(students[i].name, "Bike")) == 0) {
-            bike++;
+            bike = bike+students[i].marks;
         }
         if((strcmp(students[i].name, "Truck")) == 0) {
-            truck++;
+            truck = truck+students[i].marks;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",car,bike,truck);
