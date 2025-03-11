@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 struct student {
-    cahr rollno[100];
+    char rollno[100];
     char name[100];
     float marks;
 };
