@@ -24,7 +24,7 @@ int main() {
         else if((strcmp(students[i].name, "Bike")) == 0) {
             bike = bike+students[i].marks;
         }
-        slse if((strcmp(students[i].name, "Truck")) == 0) {
+        else if((strcmp(students[i].name, "Truck")) == 0) {
             truck = truck+students[i].marks;
         }
     }
