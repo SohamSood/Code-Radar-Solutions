@@ -7,8 +7,8 @@ int main() {
     for(int i = 0;i<a;i++) {
         if(myarr[i] == ' ') {
 
-        } else  {
+        } else {
             printf("%c",myarr[i]);
         }
     }
- }
+}
