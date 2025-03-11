@@ -16,6 +16,6 @@ int main() {
     }
     for(int i =0;i<a;i++) {
         char grade = 'A';
-        printf("Roll No: %d, Name: %s, Grade: %c",students[i].rollno,students[i].name,grade);
+        printf("Roll No: %d, Name: %s, Grade: %c /n",students[i].rollno,students[i].name,grade);
     }
 }
