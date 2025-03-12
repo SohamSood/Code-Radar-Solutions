@@ -5,11 +5,11 @@ int check(char *myarr,int a) {
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr[a-1-i];
     }
-    // if ((strcmp(myarr,myarr2)) == 0) {
-    //     printf("Yes");
-    // } else {
-    //     printf("No");
-    // }
+    if ((strcmp(myarr,myarr2)) == 0) {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
     for(int i = 0;i<a;i++) {
         printf("%c %c \n",myarr[i],myarr2[i]);
     }
