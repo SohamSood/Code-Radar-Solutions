@@ -1,13 +1,13 @@
 // Your code here...
 int findKthMissing(int *myarr,int a ,int target) {
     int maax(int *myarr,int a) {
-    int maxx=myarr[0];
-    for(int i = 0;i<a;i++) {
-        if(myarr[i]>maxx) {
-            maxx = myarr[i];
+        int maxx=myarr[0];
+        for(int i = 0;i<a;i++) {
+            if(myarr[i]>maxx) {
+                maxx = myarr[i];
+            }
         }
-    }
-    return maxx;
+        return maxx;
     }
     int count = 0;
     int no;
