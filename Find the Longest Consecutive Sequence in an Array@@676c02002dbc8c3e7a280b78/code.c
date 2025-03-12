@@ -12,7 +12,7 @@ int check(int *myarr,int a,int no) {
             }
         }
     }
-    printf("%d \n",count);
+    return count;
 }
 int main() {
     int a;
@@ -23,14 +23,14 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     for(int i = 0;i<a;i++) {
-        // myarr2[i] = check(myarr,a,myarr[i]);
-        check(myarr,a,myarr[i]);
+        myarr2[i] = check(myarr,a,myarr[i]);
+        // check(myarr,a,myarr[i]);
     }
-    // int maxx = 0;
-    // for(int i = 0;i<a;i++) {
-    //     if(myarr2[i]>maxx) {
-    //         maxx= myarr2[i];
-    //     }
-    // }
-    // printf("%d",maxx);
+    int maxx = 0;
+    for(int i = 0;i<a;i++) {
+        if(myarr2[i]>maxx) {
+            maxx= myarr2[i];
+        }
+    }
+    printf("%d",maxx);
 }
