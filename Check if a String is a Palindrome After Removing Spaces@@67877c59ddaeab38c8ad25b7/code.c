@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
-
+int check(char *myarr,int a) {
+    char myarr2[a];
+    for(int i = 0;i<a;i++) {
+        myarr2[i] == myarr[a-1-i];
+    }
+    printf("%s",myarr2);
+}
 int main() {
     char myarr[100]; 
     fgets(myarr,100,stdin);
