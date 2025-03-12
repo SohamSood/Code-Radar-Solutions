@@ -10,15 +10,12 @@ int main() {
         scanf("%d",&myarr[p]);
     }
     for(int i = 0;i<a;i++) {
-        int e = 0;
+        int maxx=myarr[i+1];
         for(int j = i+1;j<a;j++) {
-            if(myarr[i]<myarr[j]) {
-                myarr2[i] = myarr[j];
-                e++;
+            if(maxx < myarr[j]) {
+                myarr2[i] = myarr[j]; 
             }
         }
-        if(e == 0) {
-            myarr2[i] = myarr[i];
         }
     }
     for(int i = 0;i<a;i++) {
