@@ -24,6 +24,5 @@ int findKthMissing(int *myarr,int a ,int target) {
     }
     if(count == target) {
             return no;
-            break;
         }
 }
