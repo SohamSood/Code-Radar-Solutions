@@ -8,7 +8,7 @@ int check(char *myarr,int a) {
     if ((strcmp(myarr,myarr2)) == 0) {
         printf("Yes");
     } else {
-        printf("No");
+        printf("No \n");
     }
     for(int i = 0;i<a;i++) {
         printf("%c %c \n",myarr[i],myarr2[i]);
