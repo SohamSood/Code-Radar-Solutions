@@ -8,21 +8,22 @@ int findKthMissing(int *myarr,int a ,int target) {
     }
     int count = 0;
     int no;
-    return max;
-    // for(int i = 1;i<max;i++) {
-    //     if(count == target) {
-    //         return no;
-    //         break;
-    //     }
-    //     int e = 0;
-    //     for(int j = 1;j<a;j++) {
-    //         if(myarr[j] == i) {
-    //             e++;
-    //         }  
-    //     }
-    //     if(e == 0) {
-    //         no = i;
-    //         count++;
-    //     }
-    // }
+    while(count != target) {
+        for(int i = 1;i<max;i++) {
+            int e = 0;
+            for(int j = 1;j<a;j++) {
+                if(myarr[j] == i) {
+                    e++;
+                }  
+            }
+            if(e == 0) {
+                no = i;
+                count++;
+            }
+        }
+    }
+    if(count == target) {
+            return no;
+            break;
+        }
 }
