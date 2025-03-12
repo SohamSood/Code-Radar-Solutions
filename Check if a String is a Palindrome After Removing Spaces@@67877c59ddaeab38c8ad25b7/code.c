@@ -5,7 +5,9 @@ int check(char *myarr,int a) {
     for(int i = 0;i<a;i++) {
         myarr2[i] == myarr[a-1-i];
     }
-    printf("%s",myarr2);
+    for(int i = 0;i<a;i++) {
+        printf("%d \n",myarr[i]);
+    }
     printf("T");
 }
 int main() {
