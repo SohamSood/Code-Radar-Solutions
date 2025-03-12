@@ -1,5 +1,5 @@
 // Your code here...
-int compressString(int *myarr,int *myarr2) {
+int compressString(char *myarr,int *myarr2) {
     int a = strlen(myarr);
     int index = 0;
     for(int i = 0;i<a;i++) {
