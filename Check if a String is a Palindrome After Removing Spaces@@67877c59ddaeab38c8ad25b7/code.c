@@ -1,5 +1,7 @@
-// Your code here...
 #include <stdio.h>
+#include <string.h>
+
+int main
 int main() {
     char myarr[100]; 
     fgets(myarr,100,stdin);
