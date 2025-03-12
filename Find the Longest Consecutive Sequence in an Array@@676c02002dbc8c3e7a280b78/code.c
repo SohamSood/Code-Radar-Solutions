@@ -15,7 +15,7 @@ int main() {
     int maxx = 0;
     for(int i = 0;i<a;i++) {
         if(myarr2[i]>maxx) {
-            maxx= myarr2[i]
+            maxx= myarr2[i];
         }
     }
     printf("%d",maxx);
