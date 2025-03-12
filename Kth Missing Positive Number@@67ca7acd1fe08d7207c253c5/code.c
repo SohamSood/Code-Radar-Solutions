@@ -8,8 +8,7 @@ int findKthMissing(int *myarr,int a ,int target) {
     }
     int count = 0;
     int no;
-    if (count != target) {
-        for(int i = 1;i<max+target;i++) {
+    for(int i = 1;i<max+target;i++) {
             int e = 0;
             for(int j = 0;j<a;j++) {
                 if(myarr[j] == i) {
@@ -22,7 +21,6 @@ int findKthMissing(int *myarr,int a ,int target) {
                 count++;
             }
         }
-    }
     else if(count == target) {
             return no;
         }
