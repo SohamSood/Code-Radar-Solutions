@@ -1,6 +1,9 @@
 // Your code here...
 int compressString(char *myarr,int *myarr2) {
-    int a = strlen(myarr);
+    int a = 0;
+    while (myarr[a] != '\0') {
+        a++;
+    }
     int index = 0;
     for(int i = 0;i<a;i++) {
         int count = 0;
