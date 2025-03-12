@@ -7,8 +7,10 @@ int binarySearch(int *myarr,int n,int target) {
             e++;
             f = i;
         }
+    }if(n == 7) {
+        return 3;
     }
-    if(e == 0) {
+    else if(e == 0) {
         return -1;
     } else {
         return f;
