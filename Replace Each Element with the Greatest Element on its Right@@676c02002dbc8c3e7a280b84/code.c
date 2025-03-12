@@ -12,7 +12,7 @@ int main() {
     for(int i = 0;i<a;i++) {
         int maxx=myarr[i+1];
         for(int j = i+1;j<a;j++) {
-            if(maxx < myarr[j]) {
+            if(maxx <= myarr[j]) {
                 myarr2[i] = myarr[j]; 
             }
         }
