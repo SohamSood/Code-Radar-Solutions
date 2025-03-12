@@ -8,7 +8,7 @@ int findKthMissing(int *myarr,int a ,int target) {
         }
     }
     return maxx;
-}
+    }
     int count = 0;
     int no;
     int max = maax(myarr,a);
