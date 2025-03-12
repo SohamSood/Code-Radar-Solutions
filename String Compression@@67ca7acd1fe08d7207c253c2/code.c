@@ -1,12 +1,21 @@
 // Your code here...
-int compressString(int *str,int *a) {
-    for(int i= 0;i<(strlen(str));i++) {
+int compressString(int *myarr,int *myarr2) {
+    int a = strlen(myarr);
+    int index = 0;
+    for(int i = 0;i<a;i++) {
         int count = 0;
-        int var = str[i];
-        for(int j =0;j<strlen(str);j++) {
-            if(str[i] == str[j]) {
+        for(int j = 0;j<a;j++) {
+            if(myarr[i] == myarr[j]) {
                 count++;
             }
+        }
+        if(count == 1) {
+            myarr2[index] = myarr[i];
+            index++;
+        } else {
+            myarr[index] = myarr[i];
+            myarr[index+1] = count;
+            index++;
         }
     }
 }
