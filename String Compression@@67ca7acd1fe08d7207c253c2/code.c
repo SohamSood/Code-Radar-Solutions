@@ -17,12 +17,10 @@ int compressString(char *myarr, char *myarr2) {
         }
         int c = 0;
         for(int k = 0;k<b;k++) {
-            if(i == myarr2[k]) {
+            if(myarr[i] == myarr2[k]) {
                 c++;
             }
         }
-
-
         if (c == 0) {
             if (count == 1) {
                 myarr2[index] = myarr[i];
