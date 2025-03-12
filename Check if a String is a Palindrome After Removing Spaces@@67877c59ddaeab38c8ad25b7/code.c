@@ -3,12 +3,11 @@
 int check(char *myarr,int a) {
     char myarr2[a];
     for(int i = 0;i<a;i++) {
-        myarr2[i] == myarr[a-1-i];
+        myarr2[i] = myarr[a-1-i];
     }
     for(int i = 0;i<a;i++) {
         printf("%c \n",myarr[i]);
     }
-    printf("T");
 }
 int main() {
     char myarr[100]; 
