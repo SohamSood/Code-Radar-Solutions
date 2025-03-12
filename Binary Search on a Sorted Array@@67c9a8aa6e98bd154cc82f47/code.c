@@ -12,7 +12,7 @@ int binarySearch(int *myarr,int n,int target) {
     // if(e == n) {
     //     return j;
     // }
-    else if(e == 0) {
+    if(e == 0) {
         return -1;
     } else {
         return f;
