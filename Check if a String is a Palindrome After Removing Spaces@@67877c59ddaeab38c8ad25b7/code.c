@@ -11,7 +11,7 @@ int check(char *myarr,int a) {
     //     printf("No");
     // }
     for(int i = 0;i<a;i++) {
-        printf("%c %c",myarr[i],myar2[i]);
+        printf("%c %c \n",myarr[i],myarr2[i]);
     }
 }
 int main() {
