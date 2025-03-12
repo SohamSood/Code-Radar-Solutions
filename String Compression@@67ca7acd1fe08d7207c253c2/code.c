@@ -16,9 +16,9 @@ int compressString(char *myarr,char *myarr2) {
             myarr2[index] = myarr[i];
             index++;
         } else {
-            myarr[index] = myarr[i];
-            myarr[index+1] = count;
-            index++;
+            myarr2[index] = myarr[i];
+            myarr2[index+1] = count;
+            index = index+2;
         }
     }
 }
