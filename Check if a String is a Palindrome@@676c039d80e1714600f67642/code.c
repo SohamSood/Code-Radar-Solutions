@@ -8,7 +8,7 @@ int rev(char *myarr,int a) {
         myarr2[i] = myarr2[a-1-i];
     }
     for(int i = 0;i<a;i++) {
-        printf("%c %c \n",myarr[i],myarr2[i]);
+        printf("%c \n",myarr2[i]);
     }
 }
 int main() {
