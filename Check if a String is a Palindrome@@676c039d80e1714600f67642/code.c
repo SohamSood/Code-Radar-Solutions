@@ -10,6 +10,11 @@ int rev(char *myarr,int a) {
     for(int i = 0;i<a;i++) {
         printf("%c \n",myarr2[i]);
     }
+    if (strcmp(*myarr[],*myarr2[])) {
+        printf("Yes");
+    } else {
+        printf("No");
+    }
 }
 int main() {
     char myarr[100];
