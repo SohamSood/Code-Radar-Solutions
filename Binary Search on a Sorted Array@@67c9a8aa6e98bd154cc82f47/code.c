@@ -5,6 +5,7 @@ int binarySearch(int *myarr,int n,int target) {
     for(int i =n-1;i>=0;i--) {
         if ((target == myarr[i])) {
             e++;
+            f = i;
         }
     }
     if(e == 0) {
