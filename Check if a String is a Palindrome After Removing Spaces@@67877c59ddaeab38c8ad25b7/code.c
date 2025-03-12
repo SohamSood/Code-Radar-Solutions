@@ -6,6 +6,7 @@ int check(char *myarr,int a) {
         myarr2[i] == myarr[a-1-i];
     }
     printf("%s",myarr2);
+    printf("T");
 }
 int main() {
     char myarr[100]; 
