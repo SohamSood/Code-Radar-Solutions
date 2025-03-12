@@ -16,7 +16,6 @@ int main() {
                 myarr2[i] = myarr[j]; 
             }
         }
-        }
     }
     for(int i = 0;i<a;i++) {
         printf("%d ",myarr2[i]);
