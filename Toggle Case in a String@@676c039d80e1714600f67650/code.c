@@ -13,5 +13,7 @@ int main() {
             myarr[i] = toupper(myarr[i]);
         }
     }
-    scanf("%s",myarr);
+    for(int i = 0;i<a;i++) {
+        printf("%c",myarr[i]);
+    }
 }
