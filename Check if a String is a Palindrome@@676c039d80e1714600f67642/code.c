@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 int rev(char *myarr,int a) {
-    char *myarr2[a];
+    char myarr2[a];
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr[a-1-i];
     }
