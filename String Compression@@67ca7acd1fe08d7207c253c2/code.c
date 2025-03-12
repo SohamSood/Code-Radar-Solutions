@@ -1,5 +1,5 @@
 // Your code here...
-int compressString(char *myarr,int *myarr2) {
+int compressString(char *myarr,char *myarr2) {
     int a = 0;
     while (myarr[a] != '\0') {
         a++;
