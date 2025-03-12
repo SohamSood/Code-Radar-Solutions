@@ -6,7 +6,7 @@ int check(int *myarr,int a,int no) {
     int u = no;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
-            if(u == myarr[i]) {
+            if(u == myarr[j]) {
                 u++;
                 count++;
             }
