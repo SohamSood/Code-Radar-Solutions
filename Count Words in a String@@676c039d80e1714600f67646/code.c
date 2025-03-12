@@ -7,10 +7,8 @@ int main() {
     int count = 0;
     int a = strlen(myarr);
     for (int i = 0; i < a; i++) {
-        if (myarr[i] != ' ') {
-            if (i == 0 || myarr[i - 1] == ' ') {  
-                count++;
-            }
+        if (myarr[i] != ' ') && (i == 0 || myarr[i - 1] == ' '){
+            count ++;
         }
     }
     printf("%d",count);
