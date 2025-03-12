@@ -23,7 +23,7 @@ int findKthMissing(int *myarr,int a ,int target) {
             }
         }
     }
-    if(count == target) {
+    else if(count == target) {
             return no;
         }
 }
