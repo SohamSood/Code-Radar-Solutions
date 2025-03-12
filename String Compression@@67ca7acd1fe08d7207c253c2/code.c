@@ -21,5 +21,4 @@ int compressString(char *myarr,char *myarr2) {
             index++;
         }
     }
-    return myarr2;
 }
