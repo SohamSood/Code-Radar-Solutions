@@ -8,10 +8,10 @@ int binarySearch(int *myarr,int n,int target) {
             e++;
         }
     }
-    int j = (n+1)/2;
-    if(e == n) {
-        return j;
-    }
+    // int j = (n+1)/2;
+    // if(e == n) {
+    //     return j;
+    // }
     else if(e == 0) {
         return -1;
     } else {
