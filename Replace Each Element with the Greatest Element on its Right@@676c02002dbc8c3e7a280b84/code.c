@@ -17,6 +17,7 @@ int main() {
             }
         }
     }
+    myarr2[a-1] = -1;
     for(int i = 0;i<a;i++) {
         printf("%d ",myarr2[i]);
     }
