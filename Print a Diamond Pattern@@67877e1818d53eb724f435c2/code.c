@@ -12,7 +12,18 @@ int main() {
         for(int j = a-i;j<a;j++) {
             printf("*");
         }
-
+        printf("\n");
+    }
+    for(int i= a;i>0;i--) {
+        for(int j = a;j>i;j--) {
+            printf(" ");
+        }
+        for(int j = a-i;j<a;j++) {
+            printf("*");
+        }
+        for(int j = a-i;j<a;j++) {
+            printf("*");
+        }
         printf("\n");
     }
 }
