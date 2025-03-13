@@ -21,9 +21,10 @@ int main() {
             }
         }
     }
-    if(e == b) {
-        printf("Yes");
-    } else {
-        printf("No");
-    }
+    printf("%d",e);
+    // if(e == b) {
+    //     printf("Yes");
+    // } else {
+    //     printf("No");
+    // }
 }
