@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stype.h>
+#include <ctype.h>
 int pallindrome(char *myarr,int a) {
     char *myarr[a];
     for(int i = 0;i<a;i++) {
