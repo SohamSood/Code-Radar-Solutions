@@ -11,10 +11,9 @@ int main() {
         for(int i = 0;i<a;i++) {
             if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
                 count ++;
+                }
             }
-        }
-        if((count > maxx) && (count > 1)) {
-            maxx = count;
+        printf("%c %d \n",myarr[j],count);
         }
     }
     printf("%d",maxx);
