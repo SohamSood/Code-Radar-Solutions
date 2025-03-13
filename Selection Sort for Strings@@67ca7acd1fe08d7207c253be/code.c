@@ -9,7 +9,7 @@ int selectionSort(char myarr[][100], int a) {
         for(int j = 0;j<a-1;j++) {
             if(strcmp(myarr[i], myarr[i+1]) > 0) {
                 char temp[100];
-                strcpy(temp,myarr[1+i]);
+                strcpy(temp,myarr[i+1]);
                 strcpy(myarr[i+1],myarr[i]);
                 strcpy(myarr[i],temp);
             }
