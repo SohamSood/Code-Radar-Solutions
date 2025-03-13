@@ -7,10 +7,10 @@ int printArray(char myarr[][100],int a) {
 int selectionSort(char myarr[][100], int a) {
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
-            if(strcmp(myarr[i],myarr2[j]) > 0) {
+            if(strcmp(myarr[i],myarr[j]) > 0) {
                 char temp[100];
-                strcpy(temp,myarr2[j]);
-                strcpy(myarr2[j],myarr[i]);
+                strcpy(temp,myarr[j]);
+                strcpy(myarr[j],myarr[i]);
                 strcpy(myarr[i],temp);
             }
         }
