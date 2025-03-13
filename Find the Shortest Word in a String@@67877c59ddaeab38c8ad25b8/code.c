@@ -10,6 +10,7 @@ int main() {
         if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
             count ++;
         }
-        printf("%d",count);
+        // printf("%d",count);
     }
+    printf("%d",count);
 }
