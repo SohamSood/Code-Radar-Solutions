@@ -16,7 +16,7 @@ int main() {
             if(count == 1) {
                 streak ++;
             } else {
-                streak == 0;
+                streak = 0;
             }      
         }
         printf("%d ",streak);
