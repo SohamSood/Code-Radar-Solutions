@@ -12,7 +12,7 @@ int main() {
     int e = 0;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<b;j++) {
-            if((myarr2[j] == myarr[i])) {
+            if((myarr2[j] == myarr[i])&&(e == 0)) {
                 for(int k = j;k<b;k++) {
                     if(myarr[i+k] == myarr2[j+k]) {
                         e++;
