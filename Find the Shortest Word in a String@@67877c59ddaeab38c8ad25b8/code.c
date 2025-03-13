@@ -22,7 +22,8 @@ int main() {
         if(streak > maxx) {
             streak == maxx;
         }
+        printf("%d",streak);
     }
-    printf("%d",maxx);
+    
     // printf("%c %d \n",myarr[i],count);
 }
