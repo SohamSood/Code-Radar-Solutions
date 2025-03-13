@@ -24,6 +24,6 @@ int main() {
     if(e == b) {
         printf("Yes");
     } else {
-        printf("%d",e);
+        printf("No");
     }
 }
