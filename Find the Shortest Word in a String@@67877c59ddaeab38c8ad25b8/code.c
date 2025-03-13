@@ -10,8 +10,9 @@ int main() {
         int count = 0;
         for(int i = 0;i<a;i++) {
             if ((myarr[i] != ' ') && ((myarr[i+1] != ' ') || (myarr[i-1] != ' '))) {
-                count++;
-                                
+                count++;                        
+            } else if(myarr[i] != ' ') {
+                break;
             }
         printf("%c %d \n",myarr[j],count);
         }
