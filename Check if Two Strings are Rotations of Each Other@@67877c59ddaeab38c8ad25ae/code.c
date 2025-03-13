@@ -6,6 +6,7 @@ int main() {
     scanf("%s",myarr);
     scanf("%s",myarr2);
     int a = strlen(myarr);
+    int b = strlen(myarr2);
     int e = 0;
     for(int i = 0;i<a;i++) {
         for(int j = 0;j<a;j++) {
@@ -24,5 +25,13 @@ int main() {
             }
         }
     }
-    printf("%d",e);
+    if(a == b) {
+        if(e == a) {
+            printf("Yes");
+        } else {
+            printf("No");
+        }
+    } else {
+        printf("No");
+    }
 }
