@@ -8,12 +8,12 @@ int main() {
     int maxx = 0;
     for(int j = 0;j<a;j++) {
         int count = 0;
-        for(int i = 0;i<a;i++) {
+        for(int i = j;i<a;i++) {
             if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
                 count ++;
                 }
             }
         printf("%c %d \n",myarr[j],count);
         }
-    printf("%d",maxx);
+    // printf("%d",maxx);
 }
