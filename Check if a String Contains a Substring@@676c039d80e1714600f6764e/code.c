@@ -1,0 +1,26 @@
+// Your code here...
+#include <string.h>
+#include <stdio.h>
+
+int main() {
+    char myarr[100];
+    char myarr2[100];
+    fgets(mystr, 100, stdin);
+    scanf(" %s",myarr2);
+    int a = strlen(myarr);
+    int b = strlen(myarr2);
+    int e = 0;
+    for(int i = 0;i<a;i++) {
+        for(int j = 0;j<b;j++) {
+            if(myarr[j] == myarr[i]) {
+                for(int k = j;k<b;k++) {
+                    if(myarr[i+k] == myarr[j+k]) {
+                        e++;
+                    }
+                }
+            }
+        }
+    }
+    printf("%d",e);
+
+}
