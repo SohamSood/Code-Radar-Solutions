@@ -1,11 +1,12 @@
-// Your code here...
-// Your code here...
+#include <stdio.h>
+#include <string.h>
+
 int printArray(char myarr[][100],int a) {
     for(int i = 0;i<a;i++) {
         printf("%s \n",myarr[i]);
     }
 }
-int selectionSort(char myarr[][100], int a) {
+int bubbleSort(char myarr[][100], int a) {
     for(int i = 0;i<a-1;i++) {
         for(int j = 0;j<a-1;j++) {
             int y = strcmp(myarr[j],myarr[j+1]);
