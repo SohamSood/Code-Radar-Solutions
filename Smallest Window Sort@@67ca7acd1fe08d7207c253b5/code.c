@@ -16,6 +16,10 @@ int findUnsortedSubarray(int *myarr,int a) {
             }
         }
     }
+    int count = 0;
+    int sum1= 0;
+    int sum2 = 0;
+    int e = 0;int f = 0;
     for(int i = 0;i<a;i++) {
         if((myarr[i] != myarr2[i]) &&(e == 0)) {
             sum1 = sum1+i;
@@ -26,7 +30,7 @@ int findUnsortedSubarray(int *myarr,int a) {
             sum2 = sum2+i;
         }
     } 
-    count = sum2 - sum1
+    count = sum2 - sum1;
 
     // int count = 0;
     // for(int i = 0;i<a;i++) {
