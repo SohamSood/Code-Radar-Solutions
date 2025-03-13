@@ -13,8 +13,8 @@ int main() {
                 count++;                        
             } else if(myarr[i] != ' ') {
                 break;
-            }
-        printf("%c %d \n",myarr[j],count);
+            }        
         }
+        printf("%c %d \n",myarr[j],count);
     }
 }
