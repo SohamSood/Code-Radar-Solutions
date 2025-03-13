@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 int pallindrome(char *myarr,int a) {
-    char *myarr[a];
+    char myarr[a];
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr2[a-1-i];
     }
