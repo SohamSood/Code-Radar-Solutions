@@ -12,13 +12,17 @@ int main() {
             int count = 0;
             if ((myarr[i] != ' ') && ((myarr[i+1] != ' ') || (myarr[i-1] != ' '))) {
                 count++;                        
-            }                   
+            }
+            if(count == 1) {
+                streak ++;
+            } else {
+                break;
+            }      
         }
-        if(count == 1) {
-            streak ++;
-        } else {
-            break;
+        if(streak > maxx) {
+            streak == maxx;
         }
     }
-    printf("%c %d \n",myarr[i],count);
+    printf("%d",maxx);
+    // printf("%c %d \n",myarr[i],count);
 }
