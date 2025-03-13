@@ -5,12 +5,12 @@ int printArray(char myarr[][100],int a) {
     }
 }
 int selectionSort(char myarr[][100], int a) {
-    for(int i = 0;i<a;i++) {
-        for(int j = 0;j<a;j++) {
-            if(strcmp(myarr[i], myarr[j]) > 0) {
+    for(int i = 0;i<a-1;i++) {
+        for(int j = 0;j<a-1;j++) {
+            if(strcmp(myarr[i], myarr[i+1]) > 0) {
                 char temp[100];
-                strcpy(temp,myarr[j]);
-                strcpy(myarr[j],myarr[i]);
+                strcpy(temp,myarr[1+i]);
+                strcpy(myarr[i+1],myarr[i]);
                 strcpy(myarr[i],temp);
             }
         }
