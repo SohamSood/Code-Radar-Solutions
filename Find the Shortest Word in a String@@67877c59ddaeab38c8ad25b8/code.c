@@ -14,13 +14,11 @@ int main() {
                 count++;                        
             }
             if(count == 1) {
-                streak ++;
+                maxx ++;
             } else {
-                streak = 0;
+                maxx = 0;
             }      
         }
-        printf("%d %c \n",streak,myarr[j]);
+        printf("%d %c \n",maxx,myarr[j]);
     }
-    
-    // printf("%c %d \n",myarr[i],count);
 }
