@@ -9,6 +9,10 @@ int main() {
         for(int j = a-i;j<a;j++) {
             printf("*");
         }
+        for(int j = a-i;j<a;j++) {
+            printf("*");
+        }
+
         printf("\n");
     }
 }
