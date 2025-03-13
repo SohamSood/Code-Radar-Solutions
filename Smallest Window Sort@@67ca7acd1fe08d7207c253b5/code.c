@@ -33,12 +33,11 @@ int findUnsortedSubarray(int *myarr,int a) {
         }
     } 
     count = sum2 - sum1;
-    // int count = 0;
-    // for(int i = 0;i<a;i++) {
-    //     if(myarr[i] != myarr2[i]) {
-    //         count++;
-    //     }
-    // } 
+    if(count  == 0) {
+        int k = 0;
+    } else {
+        count++;
+    }
     return count;
 }
 
