@@ -15,6 +15,5 @@ int main() {
             }
         printf("%c %d \n",myarr[j],count);
         }
-    }
     printf("%d",maxx);
 }
