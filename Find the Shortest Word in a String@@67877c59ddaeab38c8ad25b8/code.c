@@ -13,7 +13,7 @@ int main() {
                 count ++;
             }
         }
-        if((count < maxx) && (count > 1)) {
+        if((count > maxx) && (count > 1)) {
             maxx = count;
         }
     }
