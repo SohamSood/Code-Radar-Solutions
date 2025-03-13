@@ -5,7 +5,7 @@
 int main() {
     char myarr[100];
     char myarr2[100];
-    fgets(mystr, 100, stdin);
+    fgets(myarr, 100, stdin);
     scanf(" %s",myarr2);
     int a = strlen(myarr);
     int b = strlen(myarr2);
@@ -21,6 +21,9 @@ int main() {
             }
         }
     }
-    printf("%d",e);
-
+    if(e == b) {
+        printf("Yes");
+    } else {
+        printf("%d",e);
+    }
 }
