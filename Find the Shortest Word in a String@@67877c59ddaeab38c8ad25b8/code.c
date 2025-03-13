@@ -16,11 +16,8 @@ int main() {
             if(count == 1) {
                 streak ++;
             } else {
-                break;
+                streak == 0;
             }      
-        }
-        if(streak > maxx) {
-            streak == maxx;
         }
         printf("%d ",streak);
     }
