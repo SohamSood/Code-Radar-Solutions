@@ -12,6 +12,8 @@ int main() {
             if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
                 count++;
                 }
+            } else {
+                count = 0;
             }
         printf("%c %d \n",myarr[j],count);
         }
