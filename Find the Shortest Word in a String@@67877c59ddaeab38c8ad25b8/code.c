@@ -19,7 +19,7 @@ int main() {
                 streak = 0;
             }      
         }
-        printf("%d ",streak);
+        printf("%d %c",streak,myarr[j]);
     }
     
     // printf("%c %d \n",myarr[i],count);
