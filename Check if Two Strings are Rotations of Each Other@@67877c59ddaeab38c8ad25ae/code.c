@@ -11,6 +11,12 @@ int main() {
         for(int j = 0;j<a;j++) {
             if((myarr[i] == myarr2[j]) && (e == 0)) {
                 for(int k = 0;k<a;k++) {
+                    if((i+k) == a) {
+                        i = -k;
+                    }
+                    if((j+k) == a) {
+                        j = -k;
+                    }
                     if(myarr[i+k] == myarr2[j+k]) {
                         e++;
                     }
