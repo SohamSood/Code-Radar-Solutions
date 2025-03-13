@@ -5,12 +5,16 @@ int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
     int a = strlen(myarr);
-    int count = 0;
-    for(int i = 0;i<a;i++) {
-        if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
-            count ++;
+    maxx = count;
+    for(int j = 0;j<a;j++) {
+        int count = 0;
+        for(int i = 0;i<a;i++) {
+            if ((myarr[i] != ' ') && (myarr[i-1] != ' ')) {
+                count ++;
+            }
         }
-        // printf("%d",count);
+        if(count > maxx) {
+            maxx = count;
+        }
     }
-    printf("%d",count);
 }
