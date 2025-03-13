@@ -13,8 +13,9 @@ int main() {
                 count ++;
             }
         }
-        if(count > maxx) {
+        if(count < maxx) {
             maxx = count;
         }
     }
+    printf("%d",maxx);
 }
