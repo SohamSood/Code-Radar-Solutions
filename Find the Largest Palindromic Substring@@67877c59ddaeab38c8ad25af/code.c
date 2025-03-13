@@ -7,7 +7,7 @@ int pallindrome(char *myarr,int a) {
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr2[a-1-i];
     }
-    printf("%d",a);
+    printf("%s",myarr);
 }
 int main() {
     char myarr[100];
