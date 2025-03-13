@@ -4,6 +4,6 @@ int printarray(char *myarr,int a) {
         printf("%s \n",myarr[i]);
     }
 }
-int selectionSort(char myarr[][MAX_LENGTH], int a) {
+int selectionSort(char *myarr, int a) {
     int e =0;
 }
