@@ -22,9 +22,14 @@ int main() {
         }
     }
     // printf("%d",e);
-    if(e == b) {
-        printf("Yes");
+    // if(e == b) {
+    //     printf("Yes");
+    // } else {
+    //     printf("No");
+    // }
+    if (strstr(myarr, myarr2) != NULL) {
+        printf("Yes\n");
     } else {
-        printf("No");
+        printf("No\n");
     }
 }
