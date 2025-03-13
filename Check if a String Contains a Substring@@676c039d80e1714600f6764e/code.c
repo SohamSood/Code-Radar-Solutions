@@ -21,7 +21,7 @@ int main() {
             }
         }
     }
-    printf("%d",e);
+    // printf("%d",e);
     if(e == b) {
         printf("Yes");
     } else {
