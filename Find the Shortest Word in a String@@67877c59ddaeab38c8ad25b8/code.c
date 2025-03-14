@@ -7,17 +7,18 @@ int main() {
     int a = strlen(myarr);
     int maxx = 0;
     for(int j = 0;j<a;j++) {
-        int streak = 0;
-        for(int i = 0;i<a;i++) {
-            int count = 0;            
-            if ((myarr[i] != ' ') && ((myarr[i+1] != ' ') || (myarr[i-1] != ' '))) {
-                count++;                        
+        int count = 0;
+        if ((myarr[j] != " ") && (myarr[j-1] = " ")) {
+            for(int i = j;i<a;i++) {
+                if(myarr[i] == ' ') {
+                    break;
+                } else {
+                    count++;
+                }
             }
-            if(count != 0) {
-                maxx++ ;
-            } else {
-                maxx = 0;
-            }      
+        }
+        if(count>maxx) {
+            maxx = count;
         }
         printf("%d %c \n",maxx,myarr[j]);
     }
