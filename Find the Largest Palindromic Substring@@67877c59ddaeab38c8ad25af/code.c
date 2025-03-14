@@ -40,9 +40,6 @@ void longestPalindromicSubstring(char *str) {
             }
         }
     }
-
-    // Print the longest palindrome
-    printf("Longest Palindromic Substring: ");
     for (int i = startIdx; i < startIdx + maxLen; i++) {
         printf("%c", str[i]);
     }
