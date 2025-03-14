@@ -13,7 +13,7 @@ int main() {
             if ((myarr[i] != ' ') && ((myarr[i+1] != ' ') || (myarr[i-1] != ' '))) {
                 count++;                        
             }
-            if(count == 1) {
+            if(count != 0) {
                 maxx++;
             } else {
                 maxx = 0;
