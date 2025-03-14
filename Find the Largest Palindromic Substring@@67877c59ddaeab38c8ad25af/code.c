@@ -52,5 +52,5 @@ int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
     int a = strlen(myarr);
-    longestPalindromicSubstring(str);
+    longestPalindromicSubstring(myarr);
 }
