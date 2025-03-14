@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
+
 int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
@@ -14,9 +14,16 @@ int main() {
             word++;
         }if(myarr[i] == ' ') {
             index++;
+            word = 0;
         }
     }
-    for(int i = 0;i<100;i++) {
-        printf("%s \n",myarr2[i]);
+    int max = 1000;
+    int finalindex = 0;
+    for(int i = 0;i<index+1;i++) {
+        if ((strlen(myarr2[i])) < max) {
+            max = strlen(myarr2[i]);
+            finalindex = i;
+        }
     }
+    printf("%s",myarr2[finalindex]);
 }
