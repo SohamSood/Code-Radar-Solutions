@@ -11,7 +11,7 @@ int main() {
         if ((myarr[j] != ' ') && (myarr[j-1] == ' ')) {
             for(int i = j;i<a;i++) {
                 if(myarr[i] == ' ') {
-                    count = 0;
+                    count --;
                     break;
                 } else {
                     count++;
