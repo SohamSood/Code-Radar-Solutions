@@ -14,7 +14,7 @@ int main() {
                 count++;                        
             }
             if(count != 0) {
-                maxx = 0;
+                maxx +;;
             } else {
                 maxx = 0;
             }      
