@@ -7,7 +7,8 @@ int reverse(char myarr[]) {
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr[a-i-1];
     }
-    printf("%s ",myarr2);
+    printf("%s",myarr2);
+    printf(" ");
 }
 int main() {
     char myarr[100];
