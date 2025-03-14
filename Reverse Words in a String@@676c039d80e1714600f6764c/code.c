@@ -21,7 +21,7 @@ int main() {
             myarr2[index][word] = myarr[i];
             word++;
         }
-        else {
+        else if(myarr[i] == ' ') {
             index++;
             word = 0;
         }
