@@ -1,49 +1,21 @@
 #include <stdio.h>
 #include <string.h>
-
-#define MAX_SUBSTR 1000  // Maximum substrings to store
-
-// Function to check if a substring is unique
-int isUnique(char substr[][100], int count, char temp[]) {
-    for (int i = 0; i < count; i++) {
-        if (strcmp(substr[i], temp) == 0) {
-            return 0;  // Not unique
+int check(char myarr[][100],char *myarr2,int a) {
+    for(int i = 0;i<a;i++) {
+        if ((strcmp(myarr[i],myarr2)) == 0) {
+            return 1;
         }
     }
-    return 1;  // Unique
-}
-
-// Function to count distinct substrings
-int countDistinctSubstrings(char str[]) {
-    int len = strlen(str);
-    char substr[MAX_SUBSTR][100];  // 2D array to store substrings
-    int count = 0;
-
-    for (int start = 0; start < len; start++) {
-        for (int end = start; end < len; end++) {
-            int index = 0;
-            char temp[100];
-
-            // Extract substring from start to end
-            for (int k = start; k <= end; k++) {
-                temp[index++] = str[k];
-            }
-            temp[index] = '\0';  // Null terminate
-
-            // Check uniqueness and store if unique
-            if (isUnique(substr, count, temp)) {
-                strcpy(substr[count++], temp);
-            }
-        }
-    }
-    return count;
-}
-
-int main() {
-    char str[100];
-    fgets(str,100,stdin);
-    int distinctCount = countDistinctSubstrings(str);
-    printf("%d\n", distinctCount);
-    printf("RUKJA");
     return 0;
+}
+int main() {
+    char myarr[100];
+    fgets(myarr,100,stdin);
+    int a = strlen(myarr);
+    char myarr2[100][100];
+    // for(int i = 0;i<a;i++) {
+    //     for(int j =0;j<a;j++) {
+
+    //     }
+    // }
 }
