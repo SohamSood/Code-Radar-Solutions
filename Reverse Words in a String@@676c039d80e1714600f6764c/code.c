@@ -10,5 +10,22 @@ int reverse(char myarr[]) {
     printf("%s ",myarr2);
 }
 int main() {
-    
+    char myarr[100];
+    char myarr2[100][100];
+    fgets(myarr,100,stdin);
+    int word = 0;
+    int index = 0;
+    for(int i = 0;i<a;i++) {
+        if(myarr[i] != ' ') {
+            myarr2[index][word] = myarr[i];
+            word++;
+        }
+        else {
+            index++;
+            word = 0;
+        }
+    }
+    for(int i = 0;i<index+1;i++) {
+        reverse(myarr2[i]);
+    }
 }
