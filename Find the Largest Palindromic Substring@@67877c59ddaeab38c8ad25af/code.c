@@ -17,12 +17,6 @@ int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
     int a = strlen(myarr);
-    for(int i = 0;i<a;i++) {
-        char temp[100];
-        int b = pallindrome(myarr,a);
-        printf("%d",b);
-        // for(int j = i;j<a;i++) {
-
-        // }
-    }
+    int b = pallindrome(myarr);
+    printf("%d",b);
 }
