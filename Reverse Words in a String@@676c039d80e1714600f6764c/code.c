@@ -15,6 +15,7 @@ int main() {
     fgets(myarr,100,stdin);
     int word = 0;
     int index = 0;
+    int a = strlen(myarr);
     for(int i = 0;i<a;i++) {
         if(myarr[i] != ' ') {
             myarr2[index][word] = myarr[i];
