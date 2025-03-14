@@ -17,6 +17,6 @@ int main() {
         }
     }
     for(int i = 0;i<100;i++) {
-        printd("%s \n",myarr2[i]);
+        printf("%s \n",myarr2[i]);
     }
 }
