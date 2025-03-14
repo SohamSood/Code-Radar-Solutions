@@ -4,16 +4,16 @@
 #include <ctype.h>
 int pallindrome(char *myarr) {
     int a = strlen(myarr);
-    char myarr2[a];
-    for(int i = 0;i<a;i++) {
-        myarr2[i] = myarr[a-1-i];
+    char myarr2[a + 1];  // +1 for null terminator
+
+    for (int i = 0; i < a; i++) {
+        myarr2[i] = myarr[a - 1 - i];  // Reverse the string
     }
-    if ((strcmp(myarr,myarr2)) == 0) {
-        return 1;
-    } else {
-        return 0;
-    }
+    myarr2[a] = '\0';  // Null-terminate the reversed string
+
+    return strcmp(myarr, myarr2) == 0;  // Return 1 if palindrome, else 0
 }
+
 void longestPalindromicSubstring(char *str) {
     int a = strlen(str);
     int maxLen = 0, startIdx = 0;
@@ -43,7 +43,6 @@ void longestPalindromicSubstring(char *str) {
     for (int i = startIdx; i < startIdx + maxLen; i++) {
         printf("%c", str[i]);
     }
-    printf("\n");
 }
 int main() {
     char myarr[100];
