@@ -17,6 +17,6 @@ int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
     int a = strlen(myarr);
-    int b = pallindrome(myarr);
+    int b = pallindrome(myarr,a);
     printf("%d",b);
 }
