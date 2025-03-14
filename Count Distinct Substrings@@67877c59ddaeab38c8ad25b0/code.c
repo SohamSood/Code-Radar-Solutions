@@ -44,5 +44,6 @@ int main() {
     fgets(str,100,stdin);
     int distinctCount = countDistinctSubstrings(str);
     printf("%d\n", distinctCount);
+    printf("RUKJA");
     return 0;
 }
