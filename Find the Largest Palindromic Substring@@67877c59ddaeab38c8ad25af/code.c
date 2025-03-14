@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-int pallindrome(char *myarr,int a) {
+int pallindrome(char *myarr) {
+    int a = strlen(myarr);
     char myarr2[a];
     for(int i = 0;i<a;i++) {
         myarr2[i] = myarr[a-1-i];
@@ -17,6 +18,6 @@ int main() {
     char myarr[100];
     fgets(myarr,100,stdin);
     int a = strlen(myarr);
-    int b = pallindrome(myarr,a);
+    int b = pallindrome(myarr);
     printf("%d",b);
 }
