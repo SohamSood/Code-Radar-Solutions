@@ -15,6 +15,6 @@ int main() {
         }
     }
     if(count == 0) {
-        printf(0);
+        printf("0");
     }
 }
