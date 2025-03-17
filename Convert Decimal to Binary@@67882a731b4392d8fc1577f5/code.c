@@ -11,6 +11,10 @@ int main() {
         }else {
             printf("%d", (a >> i) & 1);
             count++;
+
         }
+    }
+    if(count == 0) {
+        printf(0);
     }
 }
