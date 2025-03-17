@@ -2,6 +2,6 @@
 #include <stdio.h>
 int main() {
     unsigned int a;
-    scanf("%d",&a);
+    scanf("%u",&a);
     printf("%u",~a);
 }
