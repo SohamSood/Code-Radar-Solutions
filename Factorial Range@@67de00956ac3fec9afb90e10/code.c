@@ -3,11 +3,13 @@ int factorialRange(int a,int b) {
     if((b>a) || (a<0)) {
         printf("Invalid range");
     }
-    for(int i = a;i<=b;i++) {
-        int fact = 1;
-        for(int j = i;j>0;j--) {
-            fact = fact*j;
+    else {
+        for(int i = a;i<=b;i++) {
+            int fact = 1;
+            for(int j = i;j>0;j--) {
+                fact = fact*j;
+            }
+            printf("%d \n",fact);
         }
-        printf("%d \n",fact);
     }
 }
