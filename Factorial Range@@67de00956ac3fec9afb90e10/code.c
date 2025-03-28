@@ -1,7 +1,7 @@
 // Your code here...
 int factorialRange(int a,int b) {
     if((b>a) && (a<0)) {
-        printf("Invalid Range");
+        printf("Invalid range");
     }
     for(int i = a;i<=b;i++) {
         int fact = 1;
