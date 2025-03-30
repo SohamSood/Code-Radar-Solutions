@@ -1,4 +1,4 @@
-int trackscores(int *myarr,int a,int *result) {
+int trackScores(int *myarr,int a,int *result) {
     int max = myarr[0];
     int min = myarr[0];
     int countmax = 0;
